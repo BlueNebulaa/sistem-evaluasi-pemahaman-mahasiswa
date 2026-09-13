@@ -1,5 +1,13 @@
-question1 = """Can you share any specific challenges you faced while working on certification and how you overcame them?"""
-rubric1 = """
+"""Data soal & rubrik penilaian.
+
+Ini data, bukan logic. Nanti bisa dipindah ke DB tanpa mengubah services/penilaian.py.
+"""
+
+QUESTIONS = [
+    {
+        "no": 1,
+        "question": """Can you share any specific challenges you faced while working on certification and how you overcame them?""",
+        "rubric": """
 Score 4:
 - Comprehensive and Clear Response
 - Provides a detailed description of specific challenges encountered during the certification.
@@ -22,10 +30,12 @@ Score 1:
 
 Score 0:
 - Unanswered or irrelevant
-"""
-
-question2 = """Can you describe your experience with transfer learning in TensorFlow? How did it benefit your projects?"""
-rubric2 = """
+""",
+    },
+    {
+        "no": 2,
+        "question": """Can you describe your experience with transfer learning in TensorFlow? How did it benefit your projects?""",
+        "rubric": """
 Score 4:
 - Comprehensive and Very Clear Response.
 - Offers a detailed description of personal experience using transfer learning in TensorFlow.
@@ -53,11 +63,12 @@ Score 1:
 
 Score 0:
 - Unanswered or irrelevant
-"""
-
-question3 = """Describe a complex TensorFlow model you have built and the steps you took to ensure its accuracy and efficiency."""
-
-rubric3 = """"
+""",
+    },
+    {
+        "no": 3,
+        "question": """Describe a complex TensorFlow model you have built and the steps you took to ensure its accuracy and efficiency.""",
+        "rubric": """
 Score 4:
 - Comprehensive and Very Clear Response.
 - Offers a detailed description of a complex TensorFlow model built.
@@ -85,12 +96,12 @@ Score 1:
 
 Score 0:
 - Unanswered
-"""
-
-
-question4 = """Explain how to implement dropout in a TensorFlow model and the effect it has on training."""
-
-rubric4 = """
+""",
+    },
+    {
+        "no": 4,
+        "question": """Explain how to implement dropout in a TensorFlow model and the effect it has on training.""",
+        "rubric": """
 Score 4:
 - Comprehensive and Very Clear Response.
 - Provides a detailed explanation of how to implement dropout in a TensorFlow model, including code examples or specific functions (e.g., using tf.keras.layers.Dropout).
@@ -114,11 +125,12 @@ Score 1:
 
 Score 0:
 - Unanswered
-"""
-
-question5 = """Describe the process of building a convolutional neural network (CNN) using TensorFlow for image classification."""
-
-rubric5 = """
+""",
+    },
+    {
+        "no": 5,
+        "question": """Describe the process of building a convolutional neural network (CNN) using TensorFlow for image classification.""",
+        "rubric": """
 Score 4:
 - Comprehensive and Very Clear Response
 - Provides a detailed, step-by-step description of building a CNN in TensorFlow for image classification.
@@ -142,79 +154,19 @@ Score 1:
 
 Score 0:
 - Unanswered
-"""
+""",
+    },
+]
 
 
-
-
-import json
-from google.api_core.exceptions import ResourceExhausted, GoogleAPIError
-
-# pastikan ini sudah dipanggil sekali di awal program
-# genai.configure(api_key="API_KEY_LO")
-# model = genai.GenerativeModel("gemini-2.5-flash")
-
-
-def penilaian_interview(question, rubrik, answer, model_ai):
-    prompt = f"""
-You are an expert technical interviewer evaluating an answer.
-
-QUESTION:
-{question}
-
-RUBRIC:
-{rubrik}
-
-ANSWER:
-\"\"\"
-{answer}
-\"\"\"
-
-TASK:
-- Assign a score from 0 to 4 strictly based on the rubric
-- Do NOT infer information that is not explicitly stated
-- If the answer is irrelevant or does not address the question, return score 0
-- Provide a brief justification referencing the rubric
-- Return VALID JSON ONLY
-
-JSON FORMAT:
-{{
-  "score": <integer 0-4>,
-  "justification": "<short explanation>"
-}}
-"""
-
-    try:
-        response = model_ai.generate_content(prompt)
-        raw_text = response.text.strip()
-
-        # Extract JSON safely
-        json_text = raw_text[
-            raw_text.find("{") : raw_text.rfind("}") + 1
-        ]
-
-        result = json.loads(json_text)
-
-        # Safety validation
-        if "score" not in result or "justification" not in result:
-            raise ValueError("Invalid JSON structure")
-
-        return result
-
-    except ResourceExhausted:
-        return {
-            "score": 0,
-            "justification": "AI quota exceeded. Manual review required."
-        }
-
-    except (GoogleAPIError, json.JSONDecodeError, ValueError):
-        return {
-            "score": 0,
-            "justification": "AI evaluation failed. Manual review required."
-        }
-
-    except Exception:
-        return {
-            "score": 0,
-            "justification": "Unexpected error during AI evaluation."
-        }
+def format_rubrics() -> str:
+    """Gabungkan semua soal + rubrik jadi satu blok teks untuk prompt LLM."""
+    blocks = []
+    for q in QUESTIONS:
+        blocks.append(
+            "PERTANYAAN {no}:".format(no=q["no"])
+            + "\n" + q["question"].strip()
+            + "\n\nRUBRIK {no}:".format(no=q["no"])
+            + "\n" + q["rubric"].strip()
+        )
+    return "\n\n---\n\n".join(blocks)

@@ -3,7 +3,7 @@ import librosa
 import numpy as np
 import re
 
-def analyze_audio_nonverbal(wav_path: str, transcript: str, whisper_info):
+def analyze_audio_nonverbal(wav_path: str, transcript: str, duration: float):
     y, sr = librosa.load(wav_path, sr=16000)
     results = {}
 
@@ -12,7 +12,7 @@ def analyze_audio_nonverbal(wav_path: str, transcript: str, whisper_info):
     # ======================
     words = transcript.split()
     word_count = len(words)
-    duration_minutes = whisper_info.duration / 60 if getattr(whisper_info, "duration", 0) > 0 else 1
+    duration_minutes = duration / 60 if duration > 0 else 1
     wpm = word_count / duration_minutes
 
     tempo_label = "Normal"
@@ -29,7 +29,7 @@ def analyze_audio_nonverbal(wav_path: str, transcript: str, whisper_info):
     # ======================
     intervals = librosa.effects.split(y, top_db=35)
     non_silent = sum((e - s) / sr for s, e in intervals)
-    total = getattr(whisper_info, "duration", 0.0)
+    total = duration
     silence = max(0.0, total - non_silent)
 
     pause_label = "Normal"

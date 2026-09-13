@@ -1,0 +1,34 @@
+services:
+  api:
+    build: .
+    container_name: evaluasi-api
+    ports:
+      - "8000:8000"
+    env_file:
+      # required:false supaya `docker compose up` tetap jalan sebelum .env dibuat;
+      # node scoring akan memberi error jelas kalau GEMINI_API_KEY kosong.
+      - path: .env
+        required: false
+    volumes:
+      # Kode di-mount supaya perubahan langsung terpakai tanpa rebuild.
+      - .:/app
+      # Model Whisper (~500MB) diunduh saat request pertama. Tanpa volume ini,
+      # unduhannya terulang setiap kali container dibuat ulang.
+      - whisper-cache:/root/.cache/huggingface
+    command: >
+      uvicorn app:app
+      --host 0.0.0.0
+      --port 8000
+      --timeout-keep-alive 600
+      --reload
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      # Container butuh waktu load model saat start; jangan dianggap unhealthy dulu.
+      start_period: 60s
+    restart: unless-stopped
+
+volumes:
+  whisper-cache:
