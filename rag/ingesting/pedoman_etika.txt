@@ -1,0 +1,820 @@
+
+===== HALAMAN 1 =====
+POKJA 3: ETIKA
+PEDOMAN ETIKA 
+KECERDASAN 
+ARTIFISIAL V 1.00
+
+
+===== HALAMAN 2 =====
+PEDOMAN ETIKA KECERDASAN ARTIFISIAL
+POKJA 3-ETIKA
+2
+Dokumentasi Rilis
+V1.00	 10 November 2021
+
+
+===== HALAMAN 3 =====
+POKJA 3: ETIKA
+PEDOMAN ETIKA 
+KECERDASAN 
+ARTIFISIAL V 1.00
+3
+PEDOMAN ETIKA KECERDASAN ARTIFISIAL
+POKJA 3-ETIKA
+
+
+===== HALAMAN 4 =====
+KELOMPOK KERJA 3: ETIKA
+Susunan Keanggotaan
+•	 LUKAS  PENGARAH 
+INDONESIA ARTIFICIAL INTELLIGENCE SOCIETY
+•	 AYU PURWARIANTI  PENGARAH 
+INSTITUT TEKNOLOGI BANDUNG
+•	 MATHEACE RAMAPUTRA  KETUA 
+KATA.AI
+•	 EKO KUSWARDONO BUDIARDJO  ANGGOTA 
+UNIVERSITAS INDONESIA
+•	 EDMON MAKARIM  ANGGOTA 
+UNIVERSITAS INDONESIA
+•	 DIKI MUHAMMAD  ANGGOTA 
+INDONESIA ARTIFICIAL INTELLIGENCE SOCIETY
+•	 HENKE YUNKINS  ANGGOTA 
+PHIRE STUDIO
+•	 THILMA KOMALING  ANGGOTA 
+SCHOOL OF GOVERNMENT & PUBLIC POLICY
+•	 ANINDITO  ANGGOTA 
+UNIVERSITAS PERTAHANAN REPUBLIK INDONESIA
+•	 FRANSISCA MARIA ERNY SOEKOTJO  ANGGOTA 
+OR-PPT, BADAN RISET DAN INOVASI NASIONAL
+•	 DINI FRONITASARI  ANGGOTA 
+OR-PPT, BADAN RISET DAN INOVASI NASIONAL
+•	 ADIWIJAYA  ANGGOTA 
+UNIVERSITAS TELKOM
+•	 ANGGA PRIANCHA  ANGGOTA 
+UNIVERSITAS INDONESIA
+•	 ZAHRASHAFA PUTRI MAHARDIKA  ANGGOTA 
+UNIVERSITAS INDONESIA
+
+
+===== HALAMAN 5 =====
+5
+PEDOMAN ETIKA KECERDASAN ARTIFISIAL
+POKJA 3-ETIKA
+KATA PENGANTAR
+Dengan Hormat seluruh Masyarakat Indonesia,
+Puji Syukur kami panjatkan kepada Tuhan Maha Esa bahwa dengan rahmat-Nya kita masih berada 
+dalam keadaan sehat selalu untuk tetap berkarya bagi Negara Kesatuan Republik Indonesia. 
+Dalam keadaan yang berbahagia ini izinkan kami untuk memberikan suatu karya berupa Pedoman 
+Etika Kecerdasan Artifisial yang sudah kami susun sejak Maret 2021 kepada seluruh pemangku 
+kepentingan dan masyarakat Indonesia, besar harapan kami bahwa pedoman ini dapat dimanfaatkan 
+dengan baik oleh pemangku kepentingan selaku pihak yang terkait dengan teknologi pengembangan 
+Kecerdasan Artifisial di Indonesia.
+Pedoman Etika Kecerdasan Artifisial ini adalah sebuah buah hasil yang berupa poin-poin dan 
+panduan bagi seluruh insan Quad-Helix yakni pemerintah, akademisi, industri, dan komunitas dalam 
+menerapkan nilai-nilai etika yang secara umum sudah digariskan pada Buku Strategi Nasional 
+Kecerdasan Artifisial Indonesia yang sudah diluncurkan pada tahun 2020 ke dalam program-program 
+yang lebih implementatif di lingkungan masing-masing pemangku kepentingan.
+Konsep etika yang kemi perkenalkan dalam pedoman ini lebih menitikberatkan bagaimana suatu nilai-
+nilai etika dan poin-poin rekomendasi terhadap tahapan Penelitian, Pengembangan, Pengkajian, dan 
+Penerapan (Litbangjirap) sebagaimana diatur pada Undang-Undang Nomor 11 Tahun 2019 tentang 
+Sistem Nasional Ilmu Pengetahuan dan Teknologi ke dalam tata laksana yang kami usulkan nilai-
+nilainya secara umum seperti manajemen risiko, dapat diaudit, keadilan (fairness), sampai menjelaskan 
+peran masing-masing pemangku kepentingan dalam sistem etika KA di Indonesia.
+Kami berharap pedoman etika ini juga menjadi pemantik pengembangan etika KA di lingkungan 
+ekosistem KA yang berfokus pada kolaborasi dan inovasi aagr teknologi KA dapat dikembangkan 
+secara baik dan inklusif dengan tetap memperhatikan nilai-nilai khas dari Indonesia yakni setiap 
+landasan yang sudah digariskan oleh para pendiri negara yakni Pancasila.
+Demikian kami sampaikan dan terima kasih.
+Salam,
+Kelompok Kerja 3 - Etika 
+Pusat Inovasi Kecerdasan Artifisial (PIKA)
+
+
+===== HALAMAN 6 =====
+PEDOMAN ETIKA KECERDASAN ARTIFISIAL
+POKJA 3-ETIKA
+6
+
+
+===== HALAMAN 7 =====
+7
+PEDOMAN ETIKA KECERDASAN ARTIFISIAL
+POKJA 3-ETIKA
+KATA PENGANTAR	
+03
+DAFTAR ISI	
+05
+A. Pancasila sebagai Pedoman Etika dan Kebijakan Kecerdasan Artifisial	
+07
+B. Pedoman Etika Kecerdasan Artifisial	
+09
+C. Prinsip Implementasi Kecerdasan Artifisial	
+17
+D. Peran Kolaborasi Pemangku Kepentingan	
+19
+E. Checklist Kecerdasan Artifisial	
+23
+DAFTAR PUSTAKA	
+27
+DAFTAR ISI
+
+
+===== HALAMAN 9 =====
+9
+PEDOMAN ETIKA KECERDASAN ARTIFISIAL
+POKJA 3-ETIKA
+A. PANCASILA SEBAGAI PEDOMAN ETIKA 
+DAN KEBIJAKAN KECERDASAN ARTIFISIAL
+a. Pendahuluan
+Tidak dapat dipungkiri bahwa saat ini teknologi Kecerdasan Artifisial telah berperan dalam berbagai 
+aktivitas manusia. Beberapa hal yang kita gunakan dalam kehidupan sehari-hari, seperti smart 
+assistant technology  di smartphone seperti Siri, Alexa dan Google Assistant, teknologi semi-otomatis 
+di mobil Tesla, atau sebagai feed media sosial di Facebook dan Snapchat, layanan musik atau film di 
+YouTube serta Netflix semuanya memiliki teknologi Kecerdasan Artifisial. Kecerdasan Artifisial bekerja 
+dengan mengirimkan informasi dan memberi tahu pengguna dengan mengandalkan data perilaku 
+pengguna untuk menyesuaikan transmisi informasi agar sesuai dengan kebutuhan pengguna. Misalnya, 
+teknologi yang hampir setiap hari membantu kita, seperti Google Maps yang menggunakan teknologi 
+kecerdasan buatan untuk memproses data lalu lintas secara nyata/real-time untuk menemukan rute 
+terbaik untuk mencapai suatu tujuan. Oleh karena itulah perumusan kebijakan dan etika Kecerdasan 
+Artifisial dipandang perlu untuk melindungi keamanan dan mendukung pengembangan teknologi 
+Kecerdasan Artifisial untuk masyarakat secara luas.
+ b. Pengertian Etika
+Etika berdasarkan Kamus Besar Bahasa Indonesia adalah ilmu tentang apa yang baik dan apa yang 
+buruk dan tentang hak dan kewajiban moral; kumpulan asas atau nilai yg berkenaan dengan akhlak; 
+asas perilaku yg menjadi pedoman [1].
+Etika berkaitan erat dengan prinsip-prinsip moral yang mengatur perilaku seseorang atau melakukan 
+suatu kegiatan. Sebagai contoh praktis, satu prinsip etika adalah memperlakukan semua orang 
+dengan hormat. Para pakar telah mengemukakan pandangan mengenai etika selama berabad-abad, 
+salah satu yang paling terkenal teori Category Imperative [2] dari Immanuel Kant, dalam teori tersebut 
+disebutkan bahwa moral dilaksanakan sebagai suatu kewajiban tanpa syarat yang semestinya dimiliki 
+oleh manusia sebagai makhluk berakal dalam mencapai keharmonian dalam kehidupan bersama 
+manusia lain,
+ “categorical imperative, commands simply that our actions should have the form of moral conduct; 
+that is, that they should be derivable from universal principles”
+Dalam perumusan Strategi Nasional Kecerdasan Artifisial 2020-2045 beretika diartikan dalam 
+penentuan benar tidaknya tindakan yang dilakukan dengan berpedoman pada nilai-nilai kemanusiaan 
+dan sistem kemasyarakatan yang dianut [3]. Dalam konteks tersebut pelaksanaan kegiatan yang 
+berkaitan dengan Kecerdasan Artifisial wajib patuh dan taat pada etika-etika yang ditetapkan oleh 
+pemerintah selaku pembuat kebijakan yang sesuai dengan tatanan nilai-nilai luhur Pancasila sebagai 
+dasar negara. 
+
+
+===== HALAMAN 10 =====
+PEDOMAN ETIKA KECERDASAN ARTIFISIAL
+POKJA 3-ETIKA
+10
+c. Kecerdasan Artifisial 
+Gambar 1  Ilustrasi Empat Subset Utama Kecerdasan Artifisial [4]
+d. Mewujudkan Kecerdasan Artifisial Yang Beretika Sesuai Dengan Nilai-Nilai Pancasila
+Pengembangan kecerdasan artifisial wajib berpedoman dan berlandaskan pada Pancasila dengan 
+tujuan untuk kepentingan masyarakat secara luas. dengan tetap menghargai harkat dan martabat 
+setiap individu, dan memperhatikan cara pandang bangsa Indonesia demi tujuan untuk kepentingan 
+masyarakat secara luas. Dengan orientasi tujuan ini, Kecerdasan Artifisial harus bernafaskan 
+kaidah-kaidah yang tertanam di dalam Pancasila sebagai dasar negara Indonesia dengan prinsip-
+prinsip: berperiketuhanan; berperikemanusiaan; berperikebangsaan; berperikerakyatan; dan 
+berperikesejahteraan rakyat melalui cara pandang kekeluargaan yang menjadi ciri khas. 
+Untuk mewujudkan hal tersebut Kecerdasan Artifisial diharapkan dapat mendukung kehidupan 
+bermasyarakat dari berbagai sektor, baik sosial-ekonomi, ketahanan pangan, kesehatan dan Pendidikan 
+yang dirasakan secara nyata oleh masyarakat, oleh karena itulah penerapan Etika Kecerdasan Artifisial 
+diharapkan mampu memenuhi aspek-aspek:
+1.	 Dapat menghasilkan produk kebijakan yang relevan dan menjamin keamanan bagi masyarakat.
+2.	 Menciptakan iklim kecerdasan artifisial yang kondusif dengan tetap bernafaskan nilai-nilai 
+pancasila, dan berorientasi pada ketahanan nasional.
+3.	 Terbentuknya ekosistem yang kondusif untuk penelitian, pengembangan, pengkajian, dan 
+penerapan (“litbangjirap”) terhadap kecerdasan artifisial.
+4.	 Terwujudnya sinergitas dan efektivitas dalam pengawasan kecerdasan artifisial
+
+
+===== HALAMAN 11 =====
+11
+PEDOMAN ETIKA KECERDASAN ARTIFISIAL
+POKJA 3-ETIKA
+B. PEDOMAN ETIKA KECERDASAN 
+ARTIFISIAL
+Pedoman Etika adalah benih dari Kode Etik dan Komite Etika. Patokan penilaian kesesuaian dibagi 
+menjadi beberapa bagian yang bisa dinilai sesuai dengan isi Pedoman Etika. Pedoman Etika dibangun 
+dengan pola pandang Kode Etik Profesi dimana sanksi terberatnya adalah pencabutan lisensi profesi. 
+Pedoman ini dibangun berdasarkan berbagai standar yang ada seperti ISO/IEC JTC 1/SC 42 Artificial 
+intelligence dan seiring perkembangan standar yang ada akan selalu diperbaharui.
+a. Konsep Manusia sebagai sentra kepentingan, kendali, dan pengawasan.
+Dalam pelaksanaannya kepentingan manusia harus tetap menjadi tujuan utama penerapan teknologi 
+Kecerdasan Artifisial. Untuk mewujudkan hal tersebut masih terdapat permasalahan mendasar 
+diantaranya kepercayaan masyarakat terhadap jaminan pelaksanaan fungsi kontrol penerapan 
+teknologi Kecerdasan Artifisial. Hal tersebut muncul dari pemahaman bahwa di suatu waktu ketika 
+Kecerdasan Artifisial akan mengalami peningkatan dapat melampaui manusia  Kecerdasan Artifisial 
+dianggap akan mampu mengambil kendali atas sumber daya kita dan mengungguli manusia. Pemikiran 
+tersebut perlu dapat diluruskan dengan pemahaman bahwa manusia tetap menjadi pengawasan atas 
+penerapan teknologi Kecerdasan Artifisial.
+Dalam Strategi Nasional Kecerdasan Artifisial 2020-2045 Pengawasan dapat dicapai melalui 
+mekanisme tata kelola dengan dua macam pendekatan, yaitu human-in-the-loop (HITL) dan human-
+over-the-loop (HOTL). Kedua macam pendekatan ini dapat digunakan secara terpisah ataupun 
+bersamaan:
+Gambar 2  Ilustrasi Model Pengambilan Keputusan dalam Kecerdasan Artifisial [5]
+IN-THE-LOOP
+Keterlibatan manusia diperlukan
+agar proses dapat terjadi
+ON/OVER-THE-LOOP
+Mesin mengerjakan hampir semua pekerjaan.
+Keterlibatan manusia adalah sebagai pengawas
+untuk memastikan semua proses berjalan normal
+dan juga melakukan verifikasi akurasi
+OUT-OF-THE-LOOP
+Keterlibatan manusia tidak diperlukan. Mesin
+telah melakukan pekerjaan dengan akurat dan
+mempunyai ketahanan untuk melakukan
+tindakan secara independen
+Sistem Kecerdasan Artifisial yang dibangun selalu menempatkan manusia sebagai pusat dalam hal 
+pengambilan keputusan dan pengawasan dengan manusia juga sebagai penerima manfaat.
+
+
+===== HALAMAN 12 =====
+PEDOMAN ETIKA KECERDASAN ARTIFISIAL
+POKJA 3-ETIKA
+12
+1. Human-in-the-loop (HITL)
+HITL mengacu pada kemampuan intervensi manusia ada di dalam dalam setiap siklus keputusan 
+sistem kecerdasan artifisial. Pengawasan HITL menempatkan manusia sebagai operator yang 
+menjadi komponen penting dari proses kontrol otomatis, dan pengawasan teknologi Kecerdasan 
+Artifisial[5]. Bentuk sederhana HITL sehari-hari adalah penggunaan manusia untuk labeling saat 
+menandai email sebagai ‘spam’, dalam proses tersebut manusia ada di dalam lingkaran algoritma 
+machine learning yang kompleks, yang membantu proses klasifikasi email sebagai spam atau 
+bukan spam.
+2. Human-over-the-loop (HOTL) 
+HOTL adalah penempatan manusia di luar lingkaran keputusan dalam sistem kecerdasan artifisial 
+yang berbeda dibanding HITL. Manusia tetap menjadi komponen penting dalam pengambilan 
+keputusan namun semua keputusan dapat diambil sendiri oleh sistem tanpa membutuhkan 
+intervensi. Manusia dapat melakukan intervensi namun hanya bila mereka waspada akan kesalahan 
+yang dibuat.
+Suatu contoh kasus adalah kasus kapal pesiar Viking Sky, yang pada bulan Maret 2019 tiba-tiba 
+mesinnya mati mendadak. Setelah diselidiki rupanya sistem kecerdasan artifisial kapal tersebut 
+dirancang untuk mematikan mesin pada saat kapal kekurangan oli karena menggunakan pendekatan 
+HOTL. Sebaiknya pada saat seperti ini (karena kapal sedang berlayar di lautan) opsi mematikan mesin 
+dikonsultasikan kepada manusia atau dalam hal ini nakhoda atau kapten kapal yang bertugas [7]. 
+Hal yang sama juga terjadi saat mobil model Tesla S gagal mengidentifikasi sebuah truk di jalan tol 
+sehingga menabrak dan menyebabkan kematian [8]. Penggunaan model Human-over-the-Loop hanya 
+boleh digunakan pada pengambilan keputusan yang tidak fatal akibatnya pada keamanan manusia. 
+Selain dua pendekatan pengawasan di atas, HITL dan/atau HOTL, dapat diterapkan sistem pengawasan 
+lain maka tetap perlu diperhatikan dalam sistem pengawasan ini, manusia tetap sebagai sentra 
+kepentingan, pengendali, dan pengawasan. 
+Seperti contohnya system-in-the-loop dimana sistem menjadi penentu keputusan utama dan manusia 
+hanya sebagai pemrakarsa. Dalam hal ini sesuai perkembangan teknologi pedoman etika ini akan 
+diperbaharui. Suatu contoh adalah ketika manusia sangat terlibat dan “in-the-loop”, proses redaksi 
+manual membutuhkan banyak sekali tenaga dan keahlian yang akan menyalahi tujuan perancangan 
+kecerdasan artifisial itu sendiri.
+b. Keamanan Teknis Kecerdasan Artifisial
+Secara garis besar mata rantai sistem Kecerdasan Artifisial dimulai dari data, kemudian algoritma yang 
+Semua sistem KA yang dikembangkan harus dikembangkan dan diuji menurut standar keamanan 
+yang umum. 
+
+
+===== HALAMAN 13 =====
+13
+PEDOMAN ETIKA KECERDASAN ARTIFISIAL
+POKJA 3-ETIKA
+berujung di model Kecerdasan Artifisial. Di tahap pertama/awal, proses riset dan pengembangan/
+pembuatan modul/sistem Kecerdasan Artifisial melibatkan pengumpulan data, processing data, 
+penyimpanan data, dan pengiriman hasil dari data processing data-data (Tata Kelola Data). Data-data 
+(datasets) ini memiliki banyak informasi yang bersifat pribadi, rahasia dan dengan tingkat sensitifitas 
+tertentu. Sehingga diperlukan perlindungan khusus untuk mencegah kejadian-kejadian yang tidak 
+diinginkan terhadap data-data yang dipakai dalam proses riset dan pengembangan sistem Kecerdasan 
+Artifisial. Perlindungan data-data/Tata Kelola Data ini harus memiliki prinsip-prinsip keamanan dan 
+perlindungan/proteksi data pribadi, termasuk terhadap potensi ancaman dari sistem Kecerdasan 
+Artifisial itu sendiri.
+Dalam sistem keamanan teknis sistem Kecerdasan Artifisial ini juga harus ada suatu cara/mekanisme 
+di mana manusia dapat melakukan intervensi untuk mencegah potensi dampak buruk terhadap sistem 
+Kecerdasan Artifisial/Tata Kelola Data, seperti penggunaan data yang keliru atau yang tidak diijinkan 
+(non consent usage, unintended secondary usage, etc), akses dan/atau penggunaan data oleh individu/
+organisasi yang tidak diijinkan/authorized users, dan penggunaan sistem Kecerdasan Artifisial yang 
+dapat menyebabkan dampak buruk terhadap individu end user/kelompok masyarakat tertentu/sosial.
+Sistem Kecerdasan Artifisial juga harus memiliki mekanisme untuk pengawasan, pelaporan dan mitigasi 
+awal untuk menghindari atau meminimalisir dampak-dampak yang tidak baik/negatif. Explainable AI 
+atau kecerdasan artifisial yang dapat dijelaskan adalah seperangkat alat dan kerangka kerja untuk 
+membantu Anda memahami dan menafsirkan prediksi yang dibuat oleh model pembelajaran mesin 
+Anda. Riset terkait hal ini masih sangat awal dan pada saatnya nanti perlu diterapkan dalam perbaikan 
+Pedoman ini ke depan.
+c. Tata Kelola Data, termasuk Perlindungan Data
+Sistem Kecerdasan Artifisial harus dibuat dengan prinsip kehati-hatian, untuk menghindari dari 
+ancaman serangan, untuk menjaga keamanan dari informasi dan sistem, termasuk perlindungan 
+data pribadi, dampak sosial dan keselamatan (safety) manusia dan lingkungan (sustainability) dalam 
+keseluruhan mata rantai dan siklus dari sistem Kecerdasan Artifisial tersebut (life cycle). 
+Sebagai contoh: Data pembelian di suatu pasar swalayan menunjukkan pola pembelian beberapa 
+jenis barang yang terkait. Dalam prosesnya, pola yang didapat tersebut digunakan untuk kepentingan 
+pemasaran seperti bundling dan/atau jenis promosi lainnya. Namun data ini tidak boleh ditelusur 
+balik (trace back) untuk menjaga anonimitas. 
+Data yang dikelola Sistem Kecerdasan Artifisial harus dapat dikendalikan sepenuhnya dan dapat 
+dianalisis luaran yang didapatkan. Data yang digunakan untuk suatu kepentingan tidak boleh 
+digunakan kembali untuk kepentingan lain yang tidak dirancang di awal penggunaan sistem 
+Kecerdasan Artifisial tersebut
+
+
+===== HALAMAN 14 =====
+PEDOMAN ETIKA KECERDASAN ARTIFISIAL
+POKJA 3-ETIKA
+14
+d.  Transparansi, Akuntabilitas, dan kejelasan risiko serta mitigasinya (pengelolaan berbasis 
+risiko).
+Perkembangan teknologi KA dalam beberapa tahun terakhir ini dalam kemajuan yang sangat pesat 
+baik pengembangan dan juga pengaplikasiannya. Seiring dengan perkembangan teknologi KA, 
+kompleksitas sistem KA (teknologi (algoritma) dan aplikasi (model)) meningkat pesat juga sehingga 
+potensi terjadinya kesalahan baik dalam pengembangan dan pengaplikasiannya meningkat juga.
+Jika sistem KA digunakan untuk menentukan keputusan atau melakukan kegiatan tertentu, ada 
+potensi implikasi yang dapat mengakibatkan dampak tertentu kepada pengguna atau masyarakat, 
+dari dampak ringan sampai dengan dampak berat (severity/level of harm). Potensi dampak-dampak 
+(potential of harm) ini harus diidentifikasi dan diklasifikasi dengan tepat, baik secara proses maupun 
+pihak-pihak yang bertanggung jawab berdasarkan perannya masing-masing (roles) - pengelolaan 
+berbasis risiko. Sehingga jika terjadi dampak yang tidak diinginkan, dapat dilakukan aksi mitigasi/
+perbaikan dengan cekatan, sehingga meminimalisir dampak terhadap individu/masyarakat. 
+
+Gambar 3  Model Analisis Risiko dengan metode severity (dampak kerusakan) dan probability (kemungkinan terjadi) [9]
+Jika dampak-dampak/implikasi buruk kepada pengguna sistem KA tidak ditanggulangi (addressed) 
+maka tidak akan terjadi kepercayaan pengguna/masyarakat kepada sistem KA. Masyarakat akan ragu 
+Data yang dikelola Sistem Kecerdasan Artifisial harus dapat dikendalikan sepenuhnya dan dapat 
+dianalisis luaran yang didapatkan. Data yang digunakan untuk suatu kepentingan tidak boleh 
+digunakan kembali untuk kepentingan lain yang tidak dirancang di awal penggunaan sistem KA 
+tersebut.
+Sistem kecerdasan artifisial harus memiliki transparansi yang bertanggung jawab sehingga 
+pengguna sistem dapat memahami saat mereka terkena dampak signifikan oleh sistem KA  dan 
+dapat mengetahui kapan sistem AI berinteraksi dengan mereka. (TRANSPARANSI)
+Orang yang bertanggung jawab atas berbagai fase siklus hidup sistem AI harus dapat diidentifikasi 
+dan bertanggung jawab atas hasil sistem AI, dan pengawasan manusia terhadap sistem AI harus 
+diaktifkan. (AKUNTABILITAS)
+
+
+===== HALAMAN 15 =====
+15
+PEDOMAN ETIKA KECERDASAN ARTIFISIAL
+POKJA 3-ETIKA
+bahkan menolak penggunaan/peran sistem KA dalam kehidupan/pekerjaan mereka. Apalagi jika 
+sistem KA tersebut tidak memiliki transparansi dan akuntabilitas.
+Gambar 4  Mata Rantai Sistem Kecerdasan Artifisial [10]
+Oleh karena itu dalam penggunaan di masyarakat luas diperlukan transparansi dan akuntabilitas dari 
+sistem Kecerdasan Artifisial, dan juga kejelasan risiko serta mitigasinya, secara menyeluruh dalam 
+mata rantai sistem Kecerdasan Artifisial (lihat gambar 4. Mata rantai sistem Kecerdasan Artifisial, 
+hulu ke hilir, data (2 - 4) -> algoritma (5) -> model (6 - 7)) dan juga pihak-pihak yang terlibat (peneliti, 
+designer, developer/pengembang, penyedia layanan/infrastruktur KA, dan end user/pengguna).
+Seluruh kegiatan dalam sistem Kecerdasan Artifisial, riset, design, penyedia servis/infrastruktur dan 
+implementasi, harus dilakukan dengan transparans (transparency), dapat dijelaskan dengan baik 
+(explainability), bersifat terang (intelligibility) dan memiliki hasil yang akurat terhadap situasi situasi 
+yang nyata (predictability). Dan juga semua kegiatan ini dapat dipantau balik/kembali dari setiap 
+hasil/output. 
+Sistem KA juga harus memiliki fitur ‘traceability’ (data, algoritma dan model), dapat dimonitor dan 
+diperiksa untuk abnormalitas, dan juga diagnosa masalah jika sistem Kecerdasan Artifisial bekerja di 
+luar hasil yang diharapkan (functional issue/failure).
+Diperlukan juga suatu sistem/skema pertanggungjawaban dampak dari sistem Kecerdasan Artifisial 
+berdasarkan peran dari tahap riset, design, pengembangan, penyedia servis/infrastruktur dan end 
+users dalam mata rantai sistem KA.
+e. Pengembangan nilai kemanfaatan yang Berkelanjutan.
+Kecerdasan Artifisial berkelanjutan adalah gerakan untuk mendorong perubahan di seluruh siklus 
+hidup produk Kecerdasan Artifisial (yaitu pembuatan ide, pelatihan, penyetelan ulang, implementasi, 
+tata kelola) menuju integritas ekologis dan keadilan sosial yang lebih besar.
+Sistem Kecerdasan Artifisial dibangun dengan pola pikir berkelanjutan yaitu tentang 
+bagaimana mengembangkan Kecerdasan Artifisial yang kompatibel dengan keberlanjutan 
+sumber daya lingkungan untuk generasi sekarang dan mendatang.
+
+
+===== HALAMAN 16 =====
+PEDOMAN ETIKA KECERDASAN ARTIFISIAL
+POKJA 3-ETIKA
+16
+f.  Mencegah dan menghindari Implikasi buruk kepada sosial/masyarakat.
+Sistem Kecerdasan Artifisial dapat berbahaya untuk masyarakat terutama bila AI diprogram untuk 
+melakukan sesuatu yang menghancurkan: Senjata otonom adalah sistem kecerdasan buatan yang 
+diprogram untuk membunuh. Di tangan orang yang salah, senjata ini bisa dengan mudah menimbulkan 
+korban massal. Selain itu, perlombaan senjata Kecerdasan Artifisial secara tidak sengaja dapat 
+menyebabkan perang Kecerdasan Artifisial yang juga mengakibatkan korban massal. Untuk 
+menghindari digagalkan oleh musuh, senjata ini akan dirancang agar sangat sulit untuk “dimatikan”, 
+sehingga manusia bisa kehilangan kendali atas situasi seperti itu. Risiko ini adalah salah satu yang 
+hadir bahkan dengan Kecerdasan Artifisial yang sempit, tetapi tumbuh seiring dengan peningkatan 
+kecerdasan dan otonomi Kecerdasan Artifisial.
+Contoh lain Kecerdasan Artifisial diprogram untuk melakukan sesuatu yang bermanfaat, tetapi 
+menggunakan metode destruktif untuk mencapai tujuannya: Ini bisa terjadi setiap kali kita gagal 
+menyelaraskan sepenuhnya tujuan Kecerdasan Artifisial dengan tujuan kita, yang sangat sulit. 
+Jika Anda meminta mobil cerdas yang patuh untuk membawa Anda ke bandara secepat mungkin, 
+itu mungkin membuat Anda dikejar-kejar oleh polisi dengan helikopter dan bahkan mungkin juga 
+membuat Anda muntah-muntah. Dalam hal ini sistem tidak melakukan apa yang Anda inginkan tetapi 
+secara harfiah sesuai dengan apa yang Anda minta. 
+g. Non-Diskriminatif terhadap akses Teknologi kepada seluruh Masyarakat Indonesia.
+Konteks pengambilan keputusan otomatis, data pelatihan yang bias atau diskriminatif dapat 
+menyebabkan hasil yang diskriminatif agak tidak mencolok. Selain data yang tidak representatif, proses 
+pengambilan keputusan algoritmik itu sendiri dapat menjadi bias. Apa yang membuat diskriminasi 
+sangat bermasalah dalam konteks kecerdasan buatan adalah bahwa algoritma seringkali buram 
+(dalam artian tidak transparan arahnya) dan tidak dapat dijelaskan dari sudut pandang pengguna.
+Tidak dapat dihindari bahwa perencanaan yang baik sekalipun dapat menimbulkan diskriminasi 
+misalnya akibat distribusi data, pemilihan algoritma dan hal semacamnya. Lebih lanjut lagi adalah 
+bias yang disebabkan oleh manusia atau masyarakat itu sendiri. Dalam hal ini yang diperlukan adalah 
+mekanisme pelaporan bias yang responsif dan prosedur tindak lanjut yang jelas dan cepat.
+Sistem KA dikembangkan dengan prinsip memiliki manfaat terhadap masyarakat terutama 
+bila dipandang secara ekonomi/sosial/budaya.
+Masyarakat secara umum terutama mereka yang di luar teknologi dan kebijakan perlu 
+mengetahui cara kerja umum sistem kecerdasan artifisial yang digunakan, apa hasil yang 
+dapat dicapai secara realistis, dan bagaimana pengambilan keputusan otomatis dibuat 
+untuk mereka. Ini juga mencakup bagaimana data masukan dari mereka digunakan dalam 
+sistem tersebut.
+
+
+===== HALAMAN 17 =====
+17
+PEDOMAN ETIKA KECERDASAN ARTIFISIAL
+POKJA 3-ETIKA
+h. Kewaspadaan/Kehati-hatian/Awareness AI/Pertanggungjawaban
+Sistem Kecerdasan Artifisial  memiliki potensi besar untuk mengubah masa depan kita secara 
+mendasar, dan memang pembelajaran mesin telah mengubah struktur masyarakat kita. Namun ada 
+beberapa masalah besar, seperti kurangnya keragaman yang signifikan dalam pembuatan Sistem 
+Kecerdasan Artifisial, penggunaan data historis dan/atau tidak representatif, ketidakcukupan 
+kerangka peraturan atau tata kelola, dan ketidakefektifan undang-undang kesetaraan yang ada. 
+Faktor-faktor ini bergabung untuk menandakan tantangan etis yang luar biasa dalam penciptaan dan 
+penerapan teknologi ‘cerdas’, dan kita sudah dapat melihat ketidaksetaraan yang ada melebar, dan 
+bias manusia dikodifikasi ke dalam semua jenis sistem.
+Pemangku kepentingan terkait perlu meningkatkan kesadaran akan peran Kecerdasan Artifisial 
+dalam kehidupan kita. Untuk membuat masyarakat memahami di mana kita saat ini dalam perjalanan 
+perkembangan menuju Kecerdasan Artifisial, dengan isu-isu seperti robot mengambil pekerjaan kita, 
+dan robot pembunuh versus ancaman dan peluang yang lebih halus dan tidak terlihat yang sudah kita 
+hadapi. Misalnya beberapa dari kita tidak akan pernah tahu pinjaman apa, suku bunga preferensial, 
+pekerjaan bergaji tinggi yang tidak ditawarkan kepada kita karena jenis kelamin atau etnis kita, 
+karena… kita tidak ditawari. Orang lain mungkin tidak tahu betapa tidak proporsionalnya mereka 
+berisiko diprofilkan secara negatif oleh teknologi pengenalan wajah, atau oleh sistem keadilan dan 
+kesejahteraan.
+Sistem Kecerdasan Artifisial perlu diperiksa validitas penggunaannya dan seberapa efektif, 
+bertanggung jawab, dan adil penggunaannya dalam pengambilan keputusan.
+Sistem Kecerdasan Artifisial harus bersifat inklusif dan dapat diakses, dan tidak boleh 
+melibatkan atau mengakibatkan diskriminasi yang tidak adil terhadap individu, komunitas, 
+atau kelompok.
+
+
+===== HALAMAN 18 =====
+PEDOMAN ETIKA KECERDASAN ARTIFISIAL
+POKJA 3-ETIKA
+18
+
+
+===== HALAMAN 19 =====
+19
+PEDOMAN ETIKA KECERDASAN ARTIFISIAL
+POKJA 3-ETIKA
+C. PRINSIP IMPLEMENTASI KECERDASAN 
+ARTIFISIAL
+a.  Andal
+Sistem Kecerdasan Artifisial bekerja dengan akurat terhadap situasi/input yang nyata (real world 
+situation/inputs), terukur dan sesuai dengan tujuan perancangannya (predictability), keakuratan 
+tidak hanya terhadap input data pelatihan saja. Sistem Kecerdasan Artifisial yang (dihasilkan 
+dan) diterapkan harus memiliki transparansi, dapat dijelaskan dengan baik dan bersifat terang 
+(intelligibility). 
+b. Terbuka dan responsif (Dapat dikoreksi atas defect dari perspektif pengembang dan pengguna)
+Sistem Kecerdasan Artifisial mudah dikoreksi dengan dokumentasi yang jelas sehingga memudahkan 
+koreksi akibat defect baik dari perspektif pengembang ataupun pengguna.
+c. Kejelasan Pertanggungjawaban Hukum kepada Pengguna
+Sistem Kecerdasan Artifisial diterapkan dengan cara yang menghormati martabat, hak, dan kebebasan 
+manusia. Penggunaan sistem Kecerdasan Artifisial akan sepenuhnya mematuhi otoritas hukum yang 
+berlaku dan dengan kebijakan serta prosedur yang melindungi privasi, hak sipil, dan kebebasan 
+sipil. Konsep pertanggungjawaban ini juga tentu juga mengimbangi tanggung jawab pengguna jika 
+terjadi akibat yang murni berasal dari kesalahan pengguna. Kesalahan ini seperti pengungkapan data 
+kepada pihak lain dan/atau integrasi oleh pengguna pada aplikasi lain yang ternyata tujuan dan tata 
+kelola aplikasi tersebut melanggar ketentuan peraturan perundang-undangan yang berlaku. Dalam 
+menentukan tanggung jawab, pedoman ini merekomendasikan penilaian dan pengkajian terhadap 
+suatu peristiwa secara seksama sehingga terlihat secara jelas pihak mana yang bertanggung jawab.
+d. Auditable (dapat ditelusuri dengan baik)
+Sistem Kecerdasan Artifisial yang dikembangkan dan diterapakan dapat ditelusuri data set provenance 
+beserta ijin pakai dan ijin kegunaannya/penggunaannya. Semua hasil yang diperoleh sistem KA 
+dapat ditelusuri proses pengambilan keputusannya. Dan juga dilakukan sistem pengelolaan berbasis 
+risiko dengan mengidentifikasi potensi dampak tertentu kepada pengguna atau masyarakat dan juga 
+tingkat dari dampak tersebut, dan juga identifikasi pihak-pihak yang terkait.
+Dengan sistem KA yang andal serta kejelasan pertanggung jawaban hukum kepada pengguna maka 
+kepercayaan dari pengguna dan/atau masyarakat dapat dibangun dengan baik sehingga penggunaan 
+dan penerapan sistem KA dapat diterima oleh masyarakat luas.
+
+
+===== HALAMAN 20 =====
+PEDOMAN ETIKA KECERDASAN ARTIFISIAL
+POKJA 3-ETIKA
+20
+
+
+===== HALAMAN 21 =====
+21
+PEDOMAN ETIKA KECERDASAN ARTIFISIAL
+POKJA 3-ETIKA
+D. PERAN KOLABORASI PEMANGKU 
+KEPENTINGAN
+Kolaborasi adalah kata yang tepat untuk menggambarkan bagaimana etika Kecerdasan Artifisial dapat 
+dikenal, diakui, diterapkan, dan ditegakkan. Dalam hal ini pembagian peran pemangku kepentingan 
+pada umumnya adalah sebagai berikut:
+Gambar 5  Mata Rantai Sistem Kecerdasan Artifisial
+Dalam hal ini sistem etika Kecerdasan Artifisial terbagi ke dalam 5 peran utama:
+a.	 Regulator sebagai pembuat kebijakan.
+b.	 Edukator, sebagai pendidik atau dapat menjalankan fungsi edukasi.
+c.	 Komunikator, sebagai pihak yang menjalankan komunikasi dan awareness Etika Kecerdasan 
+Artifisial kepada publik maupun stakeholders.
+d.	 Implementator, pihak yang menerapkan etika Kecerdasan Artifisial dalam konteks Litbangjirap.
+e.	 Supervisor, pihak yang dapat mengawasi dan menjalankan peran pengawas dan penegak etika 
+Kecerdasan Artifisial.
+Secara garis besar, peran pemangku kepentingan adalah sebagaimana tergambarkan pada Gambar 6 
+dalam Matriks Pemangku Kepentingan Kecerdasan Artifisial
+
+
+===== HALAMAN 22 =====
+PEDOMAN ETIKA KECERDASAN ARTIFISIAL
+POKJA 3-ETIKA
+22
+Gambar 6  Matriks Pemangku Kepentingan Kecerdasan Artifisial
+A. Peran Pemerintah
+Sebagai institusi yang secara konstitusional memegang amanah untuk mengelola negara, pemerintah 
+memiliki wewenang menyeluruh untuk pengelolaan Kecerdasan Artifisial di Indonesia. Dalam konteks 
+Etika yang merupakan soft law yang dapat menjadi solusi untuk menyelaraskan ketertiban umum 
+dengan inovasi perkembangan teknologi, pemerintah memiliki peran untuk:
+1.	 Menetapkan kebijakan yang berkaitan dengan pengelolaan Kecerdasan Artifisial yang mendorong 
+penegakan nilai-nilai etika serta kode etik yang sudah dibuat oleh komunitas profesi. Pemerintah 
+memiliki kemampuan untuk men-drive arah Kecerdasan Artifisial yang lebih aman berdasarkan 
+koridor etika yang memastikan adanya kegiatan Litbangjirap yang sesuai dengan koridor kebijakan 
+dasar yang setiap asasnya sudah terkandung dalam pedoman etika maupun UU No. 11 Tahun 
+2019.
+2.	 Mendukung upaya edukasi dan komunikasi. Dalam peran edukasi, pemerintah memiliki kemampuan 
+untuk menetapkan kebijakan kurikulum dan pendidikan untuk mendorong pemahaman etika 
+Kecerdasan Artifisial juga tersosialisasi dalam bentuk pendidikan kepada pelajar dan mahasiswa, 
+sehingga awareness Kecerdasan Artifisial khususnya etika juga sudah tertanam dengan baik. 
+Komunikasi etika Kecerdasan Artifisial dapat diwujudkan dengan upaya mendukung program 
+yang terkait dengan sosialisasi Kecerdasan Artifisial, baik dari segi pendanaan maupun non-
+pendanaan.
+3.	 Implementasi oleh pemerintah dilaksanakan dengan tujuan untuk menjalan fungsi pelayanan 
+publik seperti perizinan, pencatatan penduduk, deteksi bencana alam dan keperluan lainnya 
+yang dibutuhkan. Dalam peran ini, pemerintah perlu memastikan bahwa poin-poin nilai etika 
+dikristalkan dalam kebijakan internal dalam Standard Operational Procedure termasuk pada 
+pengelolaan data, pengemabngan berbasis risiko. Pemerintah juga memperhatikan pengaturan 
+yang perlu pada Sistem Pemerintah Berbasis Elektronik dan Program Satu Data Indonesia di 
+samping memperhatikan keamanan data yang bersifat publik yang dipakai dalam pengembangan 
+teknologi Kecerdasan Artifisial. 
+4.	 Penegakan sanksi apabila adanya pelanggaran etika dapat dilakukan melalui Komite Etika yang 
+sudah diamanatkan dalam Pasal 39 UU No. 11 Tahun 2019. Badan ini menjadi supervisory body 
+yang dapat membantu pemantauan pelaksanaan kegiatan Litbangjirap terhadap Kecerdasan 
+Artifisial yang sudah diatur dalam nilai-nilai etika maupun pedoman ini.
+B. Peran Universitas/Institusi Pendidikan
+1.	 Edukator. Universitas/Institusi Pendidikan berperan sangat penting untuk mencetak tenaga-
+tenaga yang bergerak di bidang Kecerdasan Artifisial. Dalam hal etika Kecerdasan Artifisial, peran 
+
+
+===== HALAMAN 23 =====
+23
+PEDOMAN ETIKA KECERDASAN ARTIFISIAL
+POKJA 3-ETIKA
+universitasinstitusi pendidikan dalam hal ini adalah memastikan adanya mata pelajaran/mata 
+kuliah yang mengenai Kecerdasan Artifisial di Indonesia termasuk Etika Kecerdasan Artifisial 
+yang dapat diajarkan kepada mahasiswa. 
+2.	 Komunikator. Sehubungan dengan peran edukator di atas, maka universitasinstitusi pendidikan 
+juga berperan untuk mengkomunikasikan etika kecerdasan artifisial kepada mahasiswa sehingga 
+awareness terhadap Kecerdasan Artifisial. Komunikasi dapat berbentuk metode belajar mengajar, 
+diskusi ilmiah, dan penelitian bersama dengan mengaplikasikan etika Kecerdasan Artifisial dalam 
+konteks Litbangjirap.
+C. Peran Industri
+1.	 Edukator. Industri memiliki peran untuk memfasilitasi karyawannya untuk menanamkan kesadaran 
+etika Kecerdasan Artifisial di lingkungannya sendiri, sehingga pengembangan Kecerdasan 
+Artifisial dapat dilaksanakan oleh setiap tenaga andal yang mengerti etika Kecerdasan Artifisial. 
+Membuat pelatihan, diskusi mengenai etika Kecerdasan Artifisial, dan proses onboarding 
+terhadap karyawan baru dengan menanamkan Kecerdasan Artifisial juga dapat menjadi opsi yang 
+dilakukan oleh industri.
+2.	 Komunikator. Dalam konteks hubungan dengan stakeholder, industri merupakan unsur 
+penting dalam etika Kecerdasan Artifisial. kemampuan industri untuk mempengaruhi pasar 
+dan mengarahkan gaya hidup melalui produknya membuat posisi industri juga penting baik di 
+komunitas/asosiasi atau di masyarakat secara umum. Etika Kecerdasan Artifisial perlu untuk 
+diperkenalkan dan di-encourage untuk dilaksanakan baik dengan menegakkannya di lingkungan 
+asosiasi/komunitas, maupun di konsumennya dengan menjabarkan tindakan dan kebijakan 
+perusahaan terkait Etika. 
+3.	 Implementator. Sebagai penghasil produk Kecerdasan Artifisial, industri memiliki peran utama 
+dalam mengimplementasikan etika Kecerdasan Artifisial. praktik-praktik R&D di industri 
+memungkinkan adanya replikasi di industri lainnya sebagai benchmark sehingga penting sekali 
+untuk industri menerapkan etika Kecerdasan Artifisial dalam setiap tahapan Litbangjirap-nya. 
+Hal ini dapat dimulai dari pembuatan kebijakan mengenai Etika Kecerdasan Artifisial baik dalam 
+bentuk deklarasi prinsip, pembentukan tim pemantau atau komite khusus etika Kecerdasan 
+Artifisial, dan dapat juga menerapkan sertifikasi internasional tertentu terkait dengan etika 
+Kecerdasan Artifisial, seperti mengenai data dapat menerapkan ISO 27001:2013 tentang 
+Information Security Management Systems.
+D. Peran Komunitas Masyarakat - dari komunitas. 
+Komunitas memiliki peran sebagai pengelola ekosistem Kecerdasan Artifisial di lingkungannya. 
+Komunitas memiliki peran yang sempurna untuk membina, mengawasi, dan memastikan bahwa setiap 
+anggotanya sudah mengikuti standar dan kesepakatan yang sudah diambil sebagai perkumpulan 
+demi mencapai tujuan bersama. Dalam konteks etika, komunitas dapat menetapkan kode etik bagi 
+para anggotanya yang dapat menjadi acuan anggotanya dalam bekerja, khususnya dalam konteks 
+litbangjirap. Komunitas dapat menjadi filter pertama untuk memastikan etika dapat ditegakkan dan 
+dijalankan oleh segenap stakeholders sehingga sangat tidak mungkin komunitas dipinggirkan dalam 
+sistem etika Kecerdasan Artifisial. 
+Peran komunikator dan edukator dari komunitas juga lebih menguntungkan karena komunitas menjadi 
+wadah para anggota dari berbagai latar belakang untuk memastikan pengembangan Kecerdasan 
+Artifisial sesuai dengan etika yang ditetapkan, sehingga kolaborasi pemerintah dan komunitas 
+menjadi unsur yang tepat untuk dijalankan di Indonesia yang selalu memiliki kecenderungan untuk 
+berkomunitas secara mengelompok.
+
+
+===== HALAMAN 24 =====
+PEDOMAN ETIKA KECERDASAN ARTIFISIAL
+POKJA 3-ETIKA
+24
+E. Peran Komite Etika
+Komite Etika sebagaimana direferensikan dalam pedoman ini adalah komite etika yang sudah 
+diamanatkan untuk dibentuk oleh Undang-Undang Nomor 11 Tahun 2019, yang mana ketentuan 
+teknisnya diatur dalam peraturan pemerintah. Dalam hal ini, penting sekali untuk diketahui bahwa 
+komite etika di sini adalah komite etika yang mencakup segala disiplin ilmu. Sesuai dengan peraturan, 
+komite etika memiliki wewenang untuk menegakkan kode etik dan menjatuhkan sanksi. Maka, peran 
+komite etika ini dapat dikatakan sebagai pengawas sekaligus penegak etika Kecerdasan Artifisial 
+yang menjadi simpul terakhir dalam pengawasan Kecerdasan Artifisial. Dalam beberapa bentuk 
+badan etika yang berada di Indonesia, pengenaan sanksi atas pelanggaran etika dapat berbentuk 
+teguran sampai dikeluarkan dari keanggotaan atau pencabutan izin profesi. Tentu hal ini menjadi 
+titik awal mengenai bagaimana quad-helix khususnya pemerintah dalam mengatur pembentukan 
+komite etika ke depannya.  
+
+
+===== HALAMAN 25 =====
+25
+PEDOMAN ETIKA KECERDASAN ARTIFISIAL
+POKJA 3-ETIKA
+E. CHECKLIST KECERDASAN ARTIFISIAL
+Komite Etika selalu terkait dengan profesi seperti contohnya IDI dan organisasi advokat. AI termasuk 
+dalam dua realm. Realm Ilmu Pengetahuan secara general dan Realm sebagai Agen Elektronik. 
+Pedoman Etika dikembangkan sebagai safety net kepada kedua realm. Usulan masuk Peraturan 
+Pemerintah akan berakibat Komite Etika sangat baku. Kalau masuk dalam organisasi profesi akan 
+lebih mudah namun dasar hukumnya lebih sulit. Sehingga Peraturan Pemerintah lebih favourable 
+dalam penegakan sanksi. Terkait dengan risk & governance untuk machine learning diharapkan akan 
+berkembang sesuai perkembangan teknologi. Pedoman Etika dibuat dengan pola pandang jangkauan 
+yang luas namun tidak terlalu detil sehingga mudah berevolusi. Standar dalam pedoman Etika adalah 
+standar minimal, sehingga implementasi yang lebih baik tentunya diterima.
+Ceklis dan penilaian dibuat general. Sistem penilaian bisa disesuaikan dengan masing-masing domain 
+implementasi KA. Singapura membuat suatu konsorsium untuk Pedoman Etika KA dalam industri 
+finansial (VERITAS). Penggunaan ceklis dalam sandbox akan dapat memperkaya dan membuat  ceklis 
+menjadi lebih relevan.
+Gambar 7  Irisan Checklist Mata Rantai Sistem Kecerdasan Artifisial [10]
+Data
+•	
+Proses
+•	
+Data dikumpulkan kemudian diproses menjadi data set yang dipakai untuk pengembangan 
+model kecerdasan artifisial. 
+•	
+Checklist
+•	
+Apakah informasi yang bersifat pribadi, rahasia dan sensitif sudah dilindungi? Pastikan 
+anonimisasi data-data sudah dilakukan, sehingga data-data tidak mungkin ditelusuri kembali 
+ke individu tertentu. 
+•	
+Siapa yang melakukan pemrosesan dan kendali dari data (internal atau pihak ketiga)? Pastikan 
+kelayakan data (due diligence), apalagi jika sumber data berasal dari data processor dan/atau 
+controller pihak ketiga. 
+•	
+Apakah data-data sudah mendapatkan ijin penggunaan dan pemakaian (consent and purpose 
+
+
+===== HALAMAN 26 =====
+PEDOMAN ETIKA KECERDASAN ARTIFISIAL
+POKJA 3-ETIKA
+26
+limitation)? Pastikan data-data ini sudah mendapatkan ijin penggunaan dan pemakaian yang 
+tepat.
+•	
+Perhatikan kelayakan data: kualitas, akurasi dan asal-usul (provenance) dari data-data yang 
+dipakai dalam pengembangan sistem Kecerdasan Artifisial (data traceability system)
+•	
+Risiko
+•	
+Data set yang mengandung bias, tidak lengkap, tidak berkualitas, dan sebagainya.
+•	
+Data dipakai tanpa ijin dari pemilik data dan/atau dipakai untuk keperluan yang tidak 
+dijelaskan/diijinkan oleh pemilik data.
+•	
+Data dapat dilacak/trace back ke pemilik data (singling out).
+•	
+Data dapat dikaitkan dengan data di database lain sehingga bisa terjadi identifikasi pola atau 
+individu pemilik data  (linkability).
+•	
+Role - 
+•	
+Data controller
+•	
+Data processor
+Algoritma
+•	
+Proses
+•	
+Data yang telah diproses dipakai untuk pelatihan sistem Kecerdasan Artifisial dengan 
+mengaplikasian algoritma yang tepat. Pelatihan terus dilakukan sehingga sistem Kecerdasan 
+Artifisial yang dihasilkan dapat mencapai hasil yang baik. 
+•	
+Checklist:
+•	
+Apakah hasil dari pelatihan algoritma/sistem Kecerdasan Artifisial dapat dijelaskan dengan 
+baik (transparency and explainability)? Pastikan sistem Kecerdasan Artifisial yang dilatih 
+dapat dijelaskan dengan baik dan bersifat terang (intelligibility) 
+•	
+Apakah hasil dari pelatihan algoritma/sistem Kecerdasan Artifisial dapat dipastikan 
+akurasinya terhadap situasi yang nyata (predictability)? Pastikan hasil sistem Kecerdasan 
+Artifisial yang dilatih dapat diverifikasi keakurasiannya terhadap data/situasi nyata, bukan 
+hanya akurat terhadap data pelatihan saja.
+•	
+Risiko
+•	
+Tidak semua sistem Kecerdasan Artifisial dapat dijelaskan (blackbox)
+•	
+Sistem Kecerdasan Artifisial dapat mengandung bias 
+•	
+Sistem Kecerdasan Artifisial tidak memiliki akurasi yang baik ketika inputnya adalah data/
+situasi nyata (real world data/situation)
+•	
+Role
+•	
+Penyedia engine Kecerdasan Artifisial
+•	
+Pengembang, 
+•	
+Peneliti
+
+
+===== HALAMAN 27 =====
+27
+PEDOMAN ETIKA KECERDASAN ARTIFISIAL
+POKJA 3-ETIKA
+Model
+•	
+Proses
+•	
+Model yang dihasilkan oleh pelatihan sistem Kecerdasan Artifisial diterapkan dalam proses 
+akhir, sebagai contoh, pengambilan keputusan, analisis dari big data, predictive analytics, 
+prescriptive analysis, dan semacamnya
+•	
+Checklist:
+•	
+Apakah ada dampak-dampak tertentu yang mungkin terjadi dari penerapan sistem Kecerdasan 
+Artifisial yang dipakai? Pastikan ada suatu sistem monitoring sehingga dapat dilakukan 
+intervensi jika terjadi dampak-dampak yang tidak baik.
+•	
+Apakah sistem Kecerdasan Artifisial yang dihasilkan memiliki output yang konsisten/dapat 
+diprediksi (predictability)? Pastikan hasil sistem Kecerdasan Artifisial yang dilatih dapat 
+diverifikasi keakurasiannya terhadap data/situasi nyata, bukan hanya akurat terhadap data 
+pelatihan saja.
+•	
+Risiko
+•	
+Terapan sistem Kecerdasan Artifisial yang diskriminatif dan tidak inklusif
+•	
+Terapan sistem Kecerdasan Artifisial yang tidak akurat dan dapat membahayakan manusia/
+masyarakat
+•	
+Keakuratan output aplikasi model sistem Kecerdasan Artifisial tidak dapat direplikasikan 
+ketika diterapkan dalam situasi nyata.
+•	
+Role - 
+•	
+Pengembang
+•	
+Peneliti
+•	
+Pengguna
+Ceklis di atas adalah contoh ceklis yang dapat digunakan untuk menilai kesesuaian sistem Kecerdasan 
+Artifisial dengan Pedoman Etika. Untuk titik pengembangan ceklis berikutnya dapat mengacu kepada 
+ceklis dari Microsoft di https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4t6dA 
+atau yang lebih sederhana dari Carnegie Mellon di https://resources.sei.cmu.edu/asset_files/
+FactSheet/2019_010_001_636622.pdf.
+
+
+===== HALAMAN 28 =====
+PEDOMAN ETIKA KECERDASAN ARTIFISIAL
+POKJA 3-ETIKA
+28
+
+
+===== HALAMAN 29 =====
+29
+PEDOMAN ETIKA KECERDASAN ARTIFISIAL
+POKJA 3-ETIKA
+DAFTAR PUSTAKA
+[1] Kamus Besar Bahasa Indonesia, Edisi 5, Pusat Bahasa Departemen Pendidikan Nasional, Oktober 
+2016.
+[2] Immanuel Kant, Groundwork of the Metaphysics of Morals, 1785. Recompiled by Cambridge 
+University Press, 1997. 
+[3] Badan Pengkajian dan Penerapan Teknologi, Strategi Nasional Kecerdasan Artifisial, Jakarta 2020
+[4] Machine Learning for Dummies®, IBM Limited Edition, John Wiley & Sons, Inc. 2018.
+[5] The Malicious Use of Artificial Intelligence: Forecasting, Prevention, and Mitigation: https://arxiv.
+org/ftp/arxiv/papers/1802/1802.07228.pdf, February 2018
+[6] Model Artificial Intelligence Governance Framework, 2nd Edition, Personal Data Protection 
+Commission Singapore 21 January 2020, https://www.pdpc.gov.sg/-/media/files/pdpc/pdf-files/
+resource-for-organisation/ai/sgmodelaigovframework2.pdf
+[7] Lance Eliot, Human In-The-Loop Vs. Out-of-The-Loop in AI Systems: The Case of AI Self-Driving 
+Cars, 
+https://www.aitrends.com/ai-insider/human-in-the-loop-vs-out-of-the-loop-in-ai-systems-
+the-case-of-ai-self-driving-cars/, AI Trends Insider, April 9, 2019
+[8] Neal E. Boudette, Tesla Says Autopilot Makes Its Cars Safer. Crash Victims Say It Kills, https://
+www.nytimes.com/2021/07/05/business/tesla-autopilot-lawsuits-safety.html/, Published July 5, 
+2021, Updated Sept. 1, 2021
+[9] Yeong Zee Kin, Singapore’s AI Governance and Ethics Initiatives, https://www.law.berkeley.edu/
+wp-content/uploads/2019/04/Yeong-Zee-Kin-1.pdf 9 April 2019
+[10] Yiftach Shoolman, The Challenges in Building an AI Inference Engine for Real-Time Applications 
+https://redis.com/blog/the-challenges-in-building-an-ai-inference-engine-for-real-time-
+applications/), 17 April 2020
+
+
+===== HALAMAN 30 =====
+PEDOMAN ETIKA KECERDASAN ARTIFISIAL
+POKJA 3-ETIKA
+30
+
+
+===== HALAMAN 32 =====
+POKJA 3:ETIKA.
+KORIKA © 2021
+www.korika.id
+www.brin.go.id

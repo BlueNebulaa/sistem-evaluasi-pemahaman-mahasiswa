@@ -1,0 +1,1345 @@
+
+===== HALAMAN 1 =====
+ 
+1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Modul 3 
+Etika dan Resiko 
+Kecerdasan Artifisial  
+(Bimbingan Teknis Guru Koding dan Kecerdasan Artifisial 
+ Jenjang SMP) 
+ 
+Direktorat Jenderal Guru, Tenaga Kependidikan dan Pendidikan Guru 
+Kementerian Pendidikan Dasar dan Menengah 
+2025 
+ 
+
+
+===== HALAMAN 2 =====
+ 
+2 
+ 
+ 
+Modul 3 
+Etika dan Resiko Kecerdasan Artifisial 
+Pengarah: 
+Direktur Jenderal Guru, Tenaga Kependidikan dan Pendidikan Guru 
+ 
+Penanggung Jawab: 
+Direktur Guru Pendidikan Dasar 
+ 
+Koordinator: 
+Dr. Nita Isaeni, M.Pd.  
+Dr. Medira Ferayanti, S.S., M.A 
+ 
+Penulis: 
+Achmad Falichul Hidayat, S.Kom . 
+Yohan Adi Setiawan, S.Kom. 
+Winursito Insan, S.T. 
+ 
+Tim Ahli Materi: 
+Dr. Asep Wahyudin  
+Septiaji Eko Nugroho, S.T, M.Sc.,  
+Dr. Asep Jihad, M.Pd 
+ 
+Kontributor: 
+Dwi Setiyowati, S.Si. 
+Irwan Nuriwansyah, S.Pd.  
+Ita Utari 
+Rohmi Nurwiyati 
+Isti Marina Sarida 
+Amar Nugraha 
+ 
+Layout/desain: 
+Yane Hendarrita 
+ 
+Dikeluarkan oleh: 
+Direktorat Guru Pendidikan Dasar 
+Direktorat Jenderal Guru, Tenaga Kependidikan dan Pendidikan Guru 
+Kementerian Pendidikan Dasar dan Menengah 
+Kompleks Kemendikbud, Jalan Jenderal Sudirman, Senayan, Jakarta, 10270 
+ 
+Copyright © 2025 
+Hak Cipta Dilindungi Undang-Undang 
+Karya ini dilisensikan di bawah lisensi Creative Commons Attribution-NonCommercial-No 
+Derivatives 4.0 International (CC BY-NC-SA 4.0) 
+Dilarang memperbanyak sebagian atau keseluruhan isi buku ini untuk kepentingan komersil  
+tanpa izin tertulis dari Kementerian Pendidikan Dasar dan Menengah 
+ 
+ 
+
+
+===== HALAMAN 3 =====
+ 
+3 
+ 
+Daftar Isi 
+ 
+Daftar Isi ............................................................................................................................... 3 
+Kata Pengantar ..................................................................................................................... 4 
+A. Deskripsi Umum Modul ..................................................................................................... 1 
+A1. Capaian Pelatihan ....................................................................................................... 1 
+A.1. Tujuan Pelatihan ........................................................................................................ 1 
+A.2. Indikator Capaian Pelatihan ....................................................................................... 1 
+A.3. Pokok Bahasan .......................................................................................................... 1 
+A.4. Alur Pelatihan ............................................................................................................. 2 
+B.Kecerdasan Artifisial Generatif dan Implementasinya ........................................................ 2 
+B.1. Ruang Lingkup dan Definisi Teknologi KA Generatif .................................................. 3 
+B.2. Prinsip Kerja Teknologi KA Generatif ......................................................................... 5 
+B.3. Kualitas Data dalam KA ............................................................................................. 7 
+B.4. Implementasi KA Generatif pada Kehidupan Sehari-hari .......................................... 10 
+B.5. Contoh Aktivitas Penerapan KA Generatif dalam Bidang  Pendidikan ...................... 12 
+C. Etika dan Resiko KA Generatif ....................................................................................... 16 
+C.1. Etika dalam Penggunaan KA Generatif .................................................................... 16 
+C.1.1. Transparansi dan Keadilan ................................................................................ 16 
+C.1.2. Hak Cipta dan Kepemilikan ............................................................................... 16 
+C.2. Resiko Penggunaan KA Generatif ............................................................................ 17 
+C.2.1.Potensi Penyalahgunaan dan Hoaks .................................................................. 17 
+C.2.2. Bias dalam Data dan Hasil ................................................................................ 17 
+C.2.3. Pelanggaran Privasi dan Keamanan Data ......................................................... 17 
+C.3. Teknologi Deepfake ................................................................................................. 18 
+C.3.1. Contoh Aktivitas Menganalisis konten Deepfake ............................................... 20 
+D. Daftar Pustaka .............................................................................................................. 24 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+===== HALAMAN 4 =====
+ 
+4 
+ 
+Kata Pengantar 
+ 
+Assalamualaikum Warahmatullahi Wabarakatuh, Salam sejahtera bagi kita semua, 
+ 
+Puji syukur kehadirat Allah Subhanahu Wa Ta'ala atas rahmat dan karunia-Nya, 
+sehingga Modul Bimbingan Teknis (Bimtek) Training of Trainers (TOT) Koding dan 
+Kecerdasan Artifisial untuk Fase D ini siap digunakan. Modul ini menjadi bagian 
+penting dalam upaya kita bersama untuk mengakselerasi penguasaan kompetensi 
+abad ke-21 bagi murid di seluruh pelosok negeri. 
+ 
+Sebagaimana kita ketahui, arah kebijakan pendidikan saat ini menempatkan 
+penguatan sumber daya manusia sebagai prioritas utama. Salah satu pilar penting 
+dalam mewujudkan visi tersebut adalah melalui transformasi pendidikan yang adaptif 
+terhadap perkembangan teknologi. Koding dan Kecerdasan Artifisial (KA) bukan lagi 
+sekadar tren, melainkan fondasi krusial bagi kemajuan bangsa di era digital ini. 
+ 
+Kementerian Pendidikan Dasar dan Menengah telah merilis Naskah Akademik 
+Pembelajaran Koding dan Kecerdasan Artifisial yang menjadi landasan filosofi. 
+Naskah akademik ini menggarisbawahi pentingnya integrasi Koding dan KA dalam 
+proses pembelajaran yang memberdayakan guru dan murid untuk menjadi inovator di 
+masa depan. 
+ 
+Modul Bimtek TOT Fase D ini dirancang secara khusus untuk membekali para 
+fasilitator dengan pemahaman yang terintegrasi dengan pembelajaran mendalam 
+serta keterampilan yang dapat mentransformasikan konsep pembelajaran Koding dan 
+KA kepada para guru. Modul ini mencakup materi-materi esensial, mulai dari 
+kedudukan mata pelajaran Koding dan Kecerdasan Artifisial dalam kurikulum 
+nasional, Literasi Algoritma dan Konten Digital, Etika dan Resiko Kecerdasan Artifisial 
+Komunikasi melalui tools Kecerdasan Artifisial yang relevan untuk peserta didik Fase 
+D. Modul ini juga membekali para fasilitator dengan pendekatan pembelajaran 
+mendalam serta pedagogik yang efektif dan inovatif dalam memfasilitasi 
+pembelajaran Koding dan KA. 
+ 
+Kami berharap, melalui Bimtek ini, para fasilitator dapat menjadi agen perubahan yang 
+mampu menularkan semangat dan pengetahuan tentang Koding dan KA kepada para 
+guru pendidikan dasar di seluruh Indonesia. Dengan guru yang kompeten dan 
+berkualitas, diharapkan akan mampu mendidik generasi penerus bangsa yang tidak 
+hanya cakap dalam menggunakan teknologi, tetapi juga mampu mencipta dan 
+berinovasi dengan memanfaatkan potensi Koding dan KA. 
+ 
+ 
+ 
+
+
+===== HALAMAN 5 =====
+ 
+5 
+ 
+Akhir kata, saya menyampaikan apresiasi yang setinggi-tingginya kepada tim 
+penyusun modul yang telah bekerja keras menghasilkan materi yang komprehensif 
+dan relevan ini. Semoga Allah SWT senantiasa melimpahkan rahmat dan hidayah-
+Nya kepada kita semua dalam upaya memajukan pendidikan untuk semua dengan 
+memberikan standar pelayanan yang Responsif, Akuntabel, Melayani, Adaptif, dan 
+Harmonis (RAMAH). 
+ 
+Wassalamualaikum Warahmatullahi Wabarakatuh. 
+ 
+Hormat saya, 
+Direktur Guru Pendidikan Dasar 
+Kementerian Pendidikan Dasar dan 
+Menengah 
+ 
+ 
+ 
+ 
+Dr. Rachmadi Widdiharto, MA. 
+ 
+
+
+===== HALAMAN 6 =====
+ 
+1 
+ 
+A. Deskripsi Umum Modul 
+A1. Capaian Pelatihan 
+Peserta pelatihan mampu mendefinisikan konsep KA generatif, menjelaskan 
+kualitas data dalam KA, menerapkan KA generatif pada kehidupan sehari-hari, 
+menerapkan etika dan resiko penggunaan KA generatif, dan menganalisis konten 
+deepfake. 
+A.1. Tujuan Pelatihan 
+1. Peserta pelatihan mendefinisikan konsep KA generatif 
+2. Peserta pelatihan menjelaskan kualitas data dalam KA 
+3. Peserta pelatihan menerapkan KA generatif pada kehidupan sehari-hari 
+4. Peserta pelatihan menerapkan etika dan resiko penggunaan KA generatif 
+5. Peserta pelatihan menganalisis konten deepfake 
+A.2. Indikator Capaian Pelatihan 
+1. Peserta pelatihan mampu mendefinisikan konsep KA generatif.  
+2. Peserta pelatihan mampu menjelaskan prinsip kerja teknologi KA . 
+3. Peserta pelatihan mampu menjelaskan faktor-faktor yang mempengaruhi 
+kualitas data dan dampaknya terhadap hasil KA. 
+4. Peserta pelatihan mampu menjelaskan manfaat KA generatif dalam kehidupan 
+sehari-hari. 
+5. Peserta pelatihan mampu menerapkan dan memadukan perangkat KA generatif 
+untuk menyelesaikan tugas spesifik. 
+6. Peserta pelatihan mampu menerapkan etika dan potensi resiko dalam 
+penggunaan KA generatif. 
+7. Peserta pelatihan mampu menjelaskan definisi, cara kerja, dan jenis deepfake. 
+8. Peserta pelatihan mampu menganalisis dan membandingkan konten deepfake. 
+A.3. Pokok Bahasan 
+1. Kecerdasan Artifisial Generatif dan Implementasinya 
+a. Ruang Lingkup dan Definisi Teknologi KA 
+b. Prinsip Kerja Teknologi KA Generatif 
+c. Kualitas Data dalam KA 
+d. Implementasi Kecerdasan Artifisial Generatif dalam Kehidupan Sehari-hari 
+e. Contoh Aktivitas Penerapan KA Generatif dalam Bidang Pendidikan 
+2. Etika dan Resiko Kecerdasan Artifisial Generatif 
+a. Etika dalam Penggunaan KA Generatif 
+b. Resiko Penggunaan KA Generatif 
+c. Teknologi Deepfake 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+===== HALAMAN 7 =====
+ 
+2 
+ 
+A.4. Alur Pelatihan 
+Alur pelatihan modul Etika dan Resiko KA yang dijelaskan pada tabel 1. 
+Tabel 1. Alur Pelatihan Modul 3 – Etika dan Resiko KA 
+B.Kecerdasan Artifisial Generatif dan Implementasinya 
+Kecerdasan Artifisial (KA) atau Artificial Intelligence (AI) adalah konsep luas tentang 
+mesin yang bisa melakukan tugas-tugas yang biasanya membutuhkan kecerdasan 
+manusia, seperti memahami bahasa, merencanakan, bermain catur, dan sebagainya.  
+Pembelajaran Mesin atau Machine Learning (ML) adalah salah satu cabang atau 
+pendekatan di dalam KA, yang memungkinkan mesin belajar dari data tanpa diprogram 
+secara eksplisit. Namun, sebelum machine learning menjadi populer,, sudah ada 
+pendekatan lain yang dikenal dalam KA, seperti: 
+• sistem berbasis aturan contohnya sistem pakar seperti MYCIN pada tahun 1970-an, 
+yang membuat keputusan berdasarkan serangkaian aturan if-then (jika-maka) yang 
+dikodekan oleh manusia. 
+• Pencarian dan optimisasi, misalnya dalam permainan catur, KA klasik menggunakan 
+algoritma pencarian seperti minimax dan alpha-beta pruning tanpa perlu belajar dari 
+data. 
+• KA berbasis logika menggunakan logika formal (seperti logika predikat) untuk menarik 
+kesimpulan. 
+ 
+Hari 
+Topik 
+Elemen 
+Pembelajaran 
+Mendalam 
+Aktivitas 
+Tagihan 
+Moda 
+J
+P 
+1 
+Etika 
+dan 
+Resiko 
+Kecerdasa
+n Artifisial 
+(KA) 
+Memahami 
+Menjelaskan  
+Etika dan 
+Resiko KA. 
+ 
+Menyusun 
+peta konsep 
+penerapan  
+Etika dan 
+Resiko KA. 
+LK. 3.1. 
+Membuat 
+resume 
+bermakna atau 
+peta konsep  
+Etika dan Resiko 
+KA. 
+ 
+LK.  3.2. 
+Memahami 
+melalui Forum 
+Diskusi terkait  
+Etika dan Resiko 
+KA. 
+Daring 
+melalui 
+tugas 
+mandiri di 
+LMS 
+1 
+Mengaplikasi 
+Mengaplikasi  
+Etika dan 
+Resiko KA 
+LK. 3.3. 
+Mengaplikasikan  
+Etika dan Resiko 
+KA 
+Daring 
+melalui 
+tugas 
+terstruktu
+r individu 
+2 
+Merefleksi 
+Merefleksi  
+Etika dan 
+Resiko KA 
+LK 3.4. 
+Mengisi Jurnal 
+Refleksi 
+Daring 
+mandiri 
+melalui 
+aktivitas 
+di LMS 
+1 
+
+
+===== HALAMAN 8 =====
+ 
+3 
+ 
+Jadi, pembelajaran mesin adalah cara modern yang paling dominan untuk membangun 
+KA hari ini (karena lebih fleksibel dan efektif dengan banyak data), tapi bukan satu-
+satunya pendekatan dalam sejarah maupun praktik KA. Saat ini pembelajaran mesin 
+populer karena ketersediaan data yang cukup besar dan mudah untuk diperoleh.   
+Dengan ketersediaan data yang cukup besar, pembelajaran mesin (machine learning) 
+kemudian berkembang menjadi deep learning. Perbedaan machine learning dengan 
+deep learning adalah bahwa deep learning membutuhkan lebih banyak data (big data) 
+dibandingkan dengan algoritma machine learning lainnya. Namun deep learning mampu 
+melakukan pembelajaran yang lebih kompleks dan toleransi kesalahan data yang lebih 
+longgar dibandingkan algoritma machine learning lain.  
+Selanjutnya deep learning berkembang menjadi KA generatif atau generative AI (genAI), 
+yaitu model deep learning yang dihasilkan dari pembelajaran data yang besar (big data) 
+yang mampu menghasilkan (generate) konten baru. Konten tersebut bisa berupa teks, 
+gambar dan lain sebagainya.  Beberapa contoh dari generative AI adalah chatGPT, 
+gemini, dan lain sebagainya.   
+Dalam modul 3 ini secara khusus yang akan dibahas adalah KA generatif. 
+ 
+B.1. Ruang Lingkup dan Definisi Teknologi KA Generatif 
+Teknologi KA yang dimaksud dalam modul ini adalah teknologi yang berusaha meniru 
+kemampuan manusia dalam menghasilkan sebuah keputusan. Kemampuan manusia 
+yang ditiru berupa kemampuan penalaran atas masukan yang diterima melalui panca 
+indra. Salah satu contoh sistem dengan teknologi KA (dapat dilihat pada gambar 1.1) 
+adalah sistem penilaian jawaban siswa berbasis KA dimana masukan sistem adalah 
+jawaban siswa, sedangkan keluaran sistem atau keputusan yang dihasilkan sistem 
+adalah nilai dari jawaban tersebut. 
+ 
+Gambar 1.1 Contoh teknologi KA : Sistem Penilaian Jawaban Siswa 
+Contoh teknologi KA adalah pengenalan wajah manusia, pengenalan ucapan (mengenali 
+kata-kata pada sebuah ucapan), peringkasan dokumen, penerjemahan otomatis, 
+pembuat gambar, dll. Tabel 1.1 menunjukkan masukan dan keluaran untuk setiap contoh 
+teknologi KA. 
+Tabel 1.1 Contoh sistem dengan teknologi KA 
+No 
+Sistem 
+dengan 
+Teknologi KA 
+Masukan 
+(Input) 
+Keluaran 
+(Output) 
+Contoh Penggunaan 
+1 
+Pengenalan 
+Wajah 
+Gambar wajah 
+manusia 
+Nama atau data 
+orang 
+Sistem keamanan untuk 
+membuka pintu berdasarkan 
+wajah pengguna 
+
+
+===== HALAMAN 9 =====
+ 
+4 
+ 
+2 
+Pengenalan 
+Ucapan 
+Sinyal suara 
+(ucapan) 
+Kata-kata yang 
+diucapkan dalam 
+teks 
+Asisten virtual seperti Siri atau 
+Google Assistant 
+3 
+Peringkasan 
+Dokumen 
+Teks panjang 
+(lebih dari 1 
+paragraf) 
+Teks ringkasan 
+KA yang meringkas artikel 
+berita menjadi paragraf 
+pendek 
+4 
+Penerjemahan 
+Otomatis 
+Teks dalam satu 
+bahasa (contoh: 
+Indonesia) 
+Teks dalam 
+bahasa lain 
+(contoh: Inggris) 
+Google Translate untuk 
+menerjemahkan dokumen atau 
+percakapan 
+5 
+Pembuatan 
+Gambar 
+Teks yang 
+mendeskripsikan 
+isi gambar 
+Gambar hasil 
+generasi KA 
+KA yang membuat ilustrasi 
+berdasarkan deskripsi 
+pengguna 
+6 
+Deteksi Penyakit 
+dari Gambar 
+Medis 
+Citra medis (X-
+ray, MRI) 
+Hasil analisis 
+(contoh: 
+ada/tidaknya 
+penyakit) 
+KA yang membantu dokter 
+mendiagnosis penyakit dari 
+rontgen 
+7 
+Prediksi Cuaca 
+Data suhu, 
+kelembaban, 
+tekanan udara, 
+dll. 
+Perkiraan cuaca 
+dalam beberapa 
+hari kedepan 
+Aplikasi ramalan cuaca 
+berbasis KA 
+Pada dasarnya, untuk meniru kemampuan manusia tersebut, terdapat tiga pendekatan 
+dalam teknologi KA yaitu (1) berbasis algoritma pencarian, (2) berbasis pengetahuan 
+eksplisit dan (3) berbasis pembelajaran mesin (machine learning). Teknologi KA generatif 
+merupakan bagian dari teknologi KA yang berbasis pembelajaran mesin, tepatnya 
+sebagai bagian dari pembelajaran mendalam (deep learning). Pembelajaran mesin 
+adalah algoritma yang mempelajari pola atau pengetahuan dari data secara otomatis. 
+Pola tersebut kemudian digunakan untuk melakukan penalaran dalam memberikan 
+respon dari sebuah masukan pengguna. Terdapat beragam jenis pembelajaran mesin, 
+salah satunya adalah pembelajaran mendalam. Pembelajaran mendalam adalah 
+algoritma pembelajaran mesin yang menggunakan teknik jaringan saraf tiruan (JST) 
+dengan arsitektur jaringan yang lebih kompleks. KA generatif menggunakan algoritma 
+pembelajaran mendalam untuk menghasilkan keluaran baru berupa rangkaian konten 
+seperti teks, gambar, video atau suara. 
+Gambar 1.2 menunjukkan posisi KA Generatif dalam teknologi KA, dimana ChatGPT 
+merupakan aplikasi yang termasuk KA Generatif. 
+ 
+Gambar 1.2. KA Generatif sebagai bagian dari Teknologi KA 
+
+
+===== HALAMAN 10 =====
+ 
+5 
+ 
+ 
+Pada teknologi KA Generatif, keluaran yang dihasilkan pada dasarnya berupa 
+serangkaian nilai baru pada berbagai jenis data. Contohnya adalah teks (sebagai 
+rangkaian kata), gambar (rangkaian titik/pixel), suara (rangkaian frame sinyal suara), 
+video (rangkaian frame gambar dan suara). Teknologi KA Generatif biasa digunakan 
+untuk menghasilkan sebuah konten tertentu. Saat ini, tersedia berbagai sistem teknologi 
+KA Generatif yang dapat diakses pengguna melalui web, seperti ChatGPT, copilot Bing, 
+DeepSeek, gemini Google, Grok, Dall-e, midjourney, sora, dll.   
+B.2. Prinsip Kerja Teknologi KA Generatif 
+a. Pembentukan Pembelajaran Mesin (Machine learning) 
+Teknologi KA yang ada dalam setiap sistem di Tabel 1.1 pada dasarnya berupa file 
+yang berisi pengetahuan atau pola yang dimiliki manusia dalam menghasilkan sebuah 
+keputusan. File ini sering disebut sebagai model KA. Pada teknologi KA yang berbasis 
+pembelajaran mesin, file model KA dihasilkan oleh algoritma pembelajaran mesin 
+dengan berdasar pada masukan data latih (dapat dilihat pada Gambar 1.3). 
+ 
+Gambar 1.3. Cara Kerja Pembangunan Teknologi KA Berbasis Pembelajaran Mesin 
+(termasuk Pembelajaran Mendalam) 
+Data latih adalah data yang disiapkan sebagai sumber pembelajaran model KA 
+dimana algoritma pembelajaran mesin akan berusaha mengambil pola atau 
+pengetahuan yang terkandung pada data latih tersebut. Sebagai contoh, untuk 
+menghasilkan model KA yang mengenali gambar binatang, maka diperlukan data latih 
+berupa sejumlah pasangan gambar binatang dan namanya. Algoritma pembelajaran 
+mesin akan berupaya mengambil pola gambar binatang tertentu dan menyimpan pola 
+atau pengetahuan tersebut pada model KA. Dapat dilihat bahwa kualitas data latih 
+sangat menentukan kualitas model KA yang dihasilkan. 
+b. Implementasi Pembelajaran Mesin 
+Model KA yang telah dibangun dari data latih, selanjutnya digunakan untuk 
+menghasilkan keputusan atau keluaran teknologi KA berdasar masukan pengguna. 
+Gambaran proses penggunaan model KA dapat dilihat pada Gambar 1.4. Sebagai 
+contoh, untuk sebuah model KA yang berfungsi mengenali binatang, berdasarkan 
+masukan berupa file gambar binatang tertentu dan pola yang telah dipelajari dari data 
+latih, model KA akan menebak nama binatang tersebut. 
+
+
+===== HALAMAN 11 =====
+ 
+6 
+ 
+ 
+ 
+Gambar 1.4. Contoh Alur Penggunaan model KA 
+Selain menghasilkan keluaran berupa satu nilai tertentu seperti nama binatang yang 
+dihasilkan oleh model pengenalan binatang pada Gambar 1.4, teknologi KA Generatif 
+juga dapat menghasilkan rangkaian atau sekelompok nilai atau konten. Contoh 
+masukan dan keluaran sebuah model KA Generatif (model pembuat gambar) yang 
+berupa rangkaian konten dapat dilihat pada Gambar 1.5, dimana gambar kucing 
+(sebagai keluaran model KA Generatif) merupakan rangkaian titik gambar. 
+ 
+Gambar 1.5. Contoh Alur Penggunaan Model KA Generatif 
+untuk Menghasilkan Gambar 
+ 
+Selain menghasilkan gambar, teknologi KA Generatif juga dapat menghasilkan teks 
+atau dokumen yang merupakan rangkaian kata. Contohnya dapat dilihat pada Gambar 
+1.6, KA generatif diminta untuk membuat teks pantun dimana hasilnya dapat dilihat di 
+bagian bawah. 
+ 
+Gambar 1.6. Contoh Alur Penggunaan Model KA Generatif untuk Menghasilkan Teks 
+ 
+Dalam teknologi KA Generatif, file model KA Generatif dihasilkan dengan 
+menggunakan algoritma pembelajaran mendalam. Algoritma pembelajaran mendalam 
+ini merupakan turunan dari jaringan saraf tiruan (neural network) dimana model yang 
+
+
+===== HALAMAN 12 =====
+ 
+7 
+ 
+dihasilkan terdiri atas sekumpulan angka yang sering disebut dengan parameter. Pada 
+saat model KA Generatif menerima masukan dari pengguna, maka sekumpulan angka 
+pada model ini dijalankan dengan menggunakan beragam operasi matematika 
+mempertimbangkan nilai probabilitas setiap elemen yang menjadi bagian dari sebuah 
+keluaran. Dapat dikatakan bahwa model KA Generatif bekerja dengan cara “menebak” 
+keluaran berdasar nilai probabilitas yang telah dipelajari dari data latih. Karena 
+keluaran dihasilkan berdasar tebakan, maka keluaran dari KA Generatif berpotensi 
+mengandung kesalahan. 
+Dalam dunia kecerdasan artifisial yang dinamis, dapat ditemukan pendekatan dan 
+teknik berbeda yang diwakili oleh KA, pembelajaran mesin, pembelajaran mendalam, 
+dan KA Generatif. KA berfungsi sebagai konsep yang luas dan menyeluruh, 
+sementara pembelajaran mesin mempelajari pola dari data, pembelajaran mendalam 
+memanfaatkan jaringan saraf tiruan untuk pengenalan pola yang rumit, dan KA 
+Generatif menciptakan konten baru. 
+B.3. Kualitas Data dalam KA 
+Dataset adalah sekumpulan data yang berfungsi sebagai fondasi untuk melatih, menguji, 
+dan memvalidasi model KA. Dataset terdiri dari berbagai jenis data seperti teks, angka, 
+gambar, dan suara. Dalam pengembangan KA, dataset merupakan komponen yang 
+sangat penting. Kualitas model KA sangat bergantung pada data yang digunakan. Jika 
+data yang digunakan untuk pelatihan tidak akurat, tidak relevan, atau tidak 
+mencerminkan kasus nyata, model yang dihasilkan akan memiliki performa yang buruk, 
+tidak dapat diandalkan, atau gagal dalam penerapannya di dunia nyata. Agar model yang 
+dihasilkan mampu melakukan generalisasi yang baik, maka diperlukan dataset yang 
+mencakup berbagai skenario, variasi, dan kompleksitas.  
+Kualitas dataset menjadi salah satu faktor kunci yang memengaruhi keberhasilan dan 
+keakuratan penelitian, terutama dalam konteks KA dan pembelajaran mesin. Dataset 
+yang berkualitas buruk dapat menyebabkan model memberikan hasil yang tidak akurat 
+atau bias, sementara dataset yang berkualitas baik dapat meningkatkan performa dan 
+generalisasi model. 
+Terdapat beberapa platform yang menyediakan dataset terbuka dari berbagai bidang, 
+termasuk pengenalan gambar, pemrosesan teks, dan data tabular yang bisa 
+dimanfaatkan untuk penelitian KA dan pembelajaran mesin, diantaranya adalah Kaggle 
+(https://www.kaggle.com/datasets), 
+Hugging 
+Face 
+Datasets 
+(https://huggingface.co/datasets), 
+ 
+UCI 
+Machine 
+Learning 
+Repository 
+(https://archive.ics.uci.edu/), dan Open Data Portal (https://data.go.id/).  
+
+
+===== HALAMAN 13 =====
+ 
+8 
+ 
+ 
+Gambar 1.7 Kumpulan dataset dengan berbagai kategori 
+ yang bisa diunduh gratis melalui kaggle.com 
+Tangkapan layar dari laman Kaggle.com (19 maret 2025) 
+ 
+Faktor-faktor yang mempengaruhi kualitas dataset :  
+1. Keakuratan : Keakuratan dataset mengacu pada seberapa benar dan konsisten 
+data mencerminkan realitas atau kondisi sebenarnya. Data yang tidak akurat, 
+seperti entri yang salah, pengukuran yang keliru, atau hasil yang tidak sesuai 
+dengan fakta, akan menurunkan performa model. Data yang akurat menjadi 
+fondasi penting bagi pengambilan keputusan berbasis data yang handal. contoh: 
+dalam dataset gambar untuk pengenalan objek, gambar yang diberi label secara 
+salah akan menyebabkan model mempelajari pola yang tidak sesuai. 
+2. Kelengkapan : Kelengkapan data merujuk pada seberapa banyak data yang 
+tersedia sesuai dengan konteks penelitian. Dataset yang tidak lengkap, di mana 
+ada data yang hilang atau variabel yang kurang, dapat membuat hasil penelitian 
+menjadi bias atau tidak valid. Data yang hilang sering kali memerlukan 
+penanganan khusus seperti pengisian nilai yang hilang (imputation) atau 
+penghapusan data. Contoh : Dataset citra yang hanya memiliki sebagian kecil 
+data dalam kategori tertentu, seperti hanya sedikit gambar kucing dalam dataset 
+hewan, dapat menyebabkan model sulit mengenali objek tersebut. 
+3. Konsistensi : data yang konsisten adalah data yang tidak memiliki kontradiksi 
+atau ketidaksesuaian internal. Misalnya, jika satu variabel menyatakan bahwa 
+seseorang lahir pada tahun 1990 tetapi variabel lain menyebutkan usia mereka 
+adalah 25 tahun pada tahun 2024, maka ada ketidakkonsistenan dalam dataset 
+tersebut. Ketidakkonsistenan seperti ini harus diperbaiki agar data valid. 
+4. Relevansi : Relevansi data mengacu pada apakah dataset sesuai dengan tujuan 
+penelitian dan apakah variabel yang ada memiliki hubungan signifikan dengan 
+masalah yang ingin diselesaikan. Data yang tidak relevan atau tidak terkait 
+dengan tujuan penelitian dapat membingungkan model dan menghasilkan 
+prediksi yang tidak tepat.. Contoh: Jika peneliti sedang membangun model 
+prediksi cuaca, menggunakan data penjualan barang elektronik akan tidak 
+
+
+===== HALAMAN 14 =====
+ 
+9 
+ 
+relevan, meskipun datanya mungkin lengkap dan akurat. 
+5. Ketepatan Waktu : Dataset yang digunakan harus relevan dengan waktu 
+penelitian. Data yang sudah kadaluwarsa atau tidak mencerminkan situasi saat 
+ini mungkin tidak cocok untuk digunakan dalam model yang membutuhkan 
+kondisi terkini. Dalam beberapa penelitian, seperti prediksi tren atau analisis 
+sosial, data real-time sangat penting. • Contoh: Menggunakan data cuaca yang 
+dikumpulkan 10 tahun lalu untuk memprediksi cuaca minggu depan mungkin 
+tidak relevan karena perubahan iklim dan faktor lainnya. 
+6. Kebersihan (Data Cleaning) : proses pembersihan dataset, seperti penghapusan 
+gambar yang buram atau gambar yang memiliki kemiripan dengan label lain, 
+penanganan label yang salah, dan memastikan semua dataset memiliki bentuk 
+yang seragam. Jika dataset mengandung kesalahan, model bisa belajar pola 
+yang salah. 
+7. Keamanan dan Privasi – Data yang digunakan harus sesuai dengan regulasi dan 
+standar privasi, seperti GDPR (regulasi dalam hukum Uni Eropa yang mengatur 
+perlindungan data pribadi di dalam maupun di luar UE) atau Undang-undang 
+Nomor 27 Tahun 2022 tentang Perlindungan Data Pribadi. Contoh  jika dataset 
+berisi gambar yang diambil dari sumber tanpa izin, maka itu bisa menimbulkan 
+masalah etis dan hukum. 
+Untuk memahami tentang kualitas data, Anda bisa mencoba Gim (Game) dari google 
+yang bisa diakses melalui laman https://quickdraw.withgoogle.com/. Gim ini berisi 
+dataset coretan gambar tangan skala besar yang dapat digunakan untuk melatih model 
+KA. Dalam contoh gim tersebut, Anda diminta untuk menggambar secara digital sesuai 
+subjek yang diminta. Pada gambar 1.8 dapat dilihat meskipun bentuk gambarnya belum 
+sempurna, namun sistem sudah bisa memprediksi nama obyek yang digambar dalam 
+waktu yang cepat yaitu hanya dalam waktu 16 detik. 
+ 
+Gambar 1.8. Gambaran aktivitas memprediksi sebuah gambar untuk  
+menguji dataset yang sudah dikumpulkan melalui “Quick,Draw!” 
+Tangkapan layar dari laman quickdraw.withgoogle.com (google, 19 maret 2025) 
+ 
+Kecepatan dalam memprediksi hasil gambar tersebut tidak lepas dari jumlah dataset 
+objek gambar katak yang tersimpan di Quick, Draw! yang berjumlah ratusan ribu (dapat 
+dilihat pada Gambar 1.9).  
+
+
+===== HALAMAN 15 =====
+ 
+10 
+ 
+ 
+Gambar 1.9. Contoh dataset gambar katak yang dikumpulkan melalui “Quick, Draw!”, untuk 
+melatih dan meningkatkan algoritme pembelajaran mesin 
+Tangkapan layar dari laman quickdraw.withgoogle.com (google, 19 maret 2025) 
+ 
+KA tidak hanya membutuhkan data yang banyak, tetapi juga dibutuhkan kualitas data 
+yang baik. Data yang tidak tepat atau data yang penuh dengan bias akan menyebabkan 
+KA menghasilkan hasil yang tidak akurat atau tidak adil. Oleh karena itu, sebelum 
+memproses data untuk pembelajaran mesin, penting untuk memastikan bahwa data 
+sudah bersih, aman, dan memenuhi standar kualitas tinggi. 
+B.4. Implementasi KA Generatif pada Kehidupan Sehari-hari 
+Teknologi KA, telah mengalami perkembangan yang pesat dalam beberapa tahun 
+terakhir. Dampaknya tidak hanya dirasakan di sektor teknologi, tetapi juga semakin 
+meluas ke dunia bisnis dan kehidupan sehari-hari. Oleh karena itu, penting bagi kita 
+untuk memahami berbagai manfaat KA dalam berbagai bidang kehidupan. 
+1. Industri Kreatif dan Desain 
+Kecerdasan artifisial generatif telah membuka banyak peluang dalam industri 
+kreatif, seperti seni dan desain grafis. Alat-alat seperti DALL·E dan Midjourney 
+telah memungkinkan para seniman dan desainer untuk membuat karya seni 
+digital hanya dari deskripsi teks. Dengan teknologi ini, pembuatan seni tidak lagi 
+terbatas pada keterampilan teknis individu, melainkan bisa diperluas dengan 
+bantuan KA. Selain itu, KA juga mampu menghasilkan desain produk atau 
+visualisasi arsitektur. Perusahaan dapat menggunakan KA untuk membuat 
+prototipe desain dengan cepat dan lebih efisien. 
+2. Industri Teks dan Jurnalistik 
+Dalam dunia jurnalistik, KA generatif digunakan untuk menghasilkan konten 
+berita, artikel, dan bahkan buku. Dengan bantuan model seperti GPT, 
+perusahaan media dapat menghasilkan konten otomatis dengan cepat dan 
+efisien. KA ini juga bisa digunakan untuk menganalisis data besar dan 
+menyusunnya menjadi laporan yang mudah dipahami. 
+Selain itu, KA generatif juga dapat digunakan dalam penerjemahan teks, 
+
+
+===== HALAMAN 16 =====
+ 
+11 
+ 
+penulisan konten iklan, atau bahkan membantu penulis dalam menciptakan 
+cerita fiksi yang kompleks. 
+3. Industri Musik 
+Kecerdasan artifisial generatif juga telah memasuki dunia musik. Dengan 
+mempelajari ribuan lagu, KA dapat menciptakan musik baru dengan gaya dan 
+genre yang berbeda. Beberapa komposer bahkan menggunakan KA untuk 
+membantu mereka dalam menciptakan melodi atau ritme baru yang segar. 
+Sebagai contoh, KA bisa digunakan untuk menciptakan musik latar yang sesuai 
+dengan suasana atau mood tertentu. Teknologi ini memungkinkan musisi untuk 
+mempercepat proses kreatif mereka dan mengeksplorasi ide-ide musik yang 
+belum pernah dipikirkan sebelumnya. 
+4. Pengembangan Gim 
+Dalam industri gim,  KA generatif telah digunakan untuk menciptakan elemen-
+elemen dunia virtual secara otomatis, seperti karakter, lanskap, atau alur cerita. 
+Dengan KA generatif, pengembang game bisa menciptakan dunia yang lebih 
+besar dan lebih dinamis dengan lebih sedikit sumber daya manual. Selain itu, KA 
+juga dapat digunakan untuk menciptakan karakter game yang unik dan responsif, 
+memberikan pengalaman bermain yang lebih mendalam bagi pemain. 
+5. Pengembangan Produk dan Riset 
+Di sektor riset dan pengembangan produk, KA generatif digunakan untuk 
+menciptakan prototipe produk baru atau memprediksi hasil eksperimen. 
+Misalnya, dalam industri farmasi, KA generatif bisa membantu ilmuwan untuk 
+memprediksi struktur molekul obat baru yang potensial, mempercepat proses 
+penemuan obat. 
+6. E-commerce dan Periklanan 
+Di dunia e-commerce, KA generatif dapat digunakan untuk membuat deskripsi 
+produk, ulasan otomatis, dan konten pemasaran yang relevan. Dengan 
+kemampuan menghasilkan teks yang relevan dan personal, KA generatif 
+memungkinkan perusahaan untuk menargetkan pelanggan dengan lebih efisien 
+dan meningkatkan konversi penjualan. Meskipun potensi kecerdasan artifisial 
+generatif sangat besar, sinergi dengan manusia dapat menjadi kunci untuk 
+mencapai hasil yang lebih cepat dan lebih baik. Kolaborasi antara kecerdasan 
+artifisial generatif dan keahlian manusia dapat menghasilkan solusi yang lebih 
+inovatif dan efisien dalam berbagai bidang industri. 
+7. Pendidikan 
+Kecerdasan Artifisial membawa perubahan besar dalam dunia pendidikan 
+dengan memberikan solusi inovatif yang meningkatkan efektivitas pembelajaran, 
+kreativitas siswa, dan efisiensi pengajaran. Berikut adalah beberapa manfaat 
+utama KA dalam pendidikan: 
+a. Personalisasi Pembelajaran 
+KA generatif dapat menyesuaikan materi berdasarkan kemampuan dan 
+kebutuhan 
+siswa, 
+memberikan 
+soal 
+latihan 
+yang 
+sesuai, 
+serta 
+merekomendasikan bacaan tambahan untuk mendukung pemahaman 
+mereka. 
+b. Pembuatan Konten Pembelajaran 
+
+
+===== HALAMAN 17 =====
+ 
+12 
+ 
+KA dapat membantu guru dan siswa dalam membuat soal latihan, ringkasan 
+materi, dan konten multimedia seperti ilustrasi, infografis, dan animasi 
+edukatif secara otomatis. 
+c. Asisten Virtual & Tutor AI 
+Chatbot KA dapat memberikan bimbingan belajar 24/7, membantu 
+menjawab pertanyaan siswa, serta memberikan feedback otomatis pada 
+tugas atau esai mereka. 
+d. Meningkatkan Efisiensi Guru 
+KA generatif dapat mengurangi beban administratif guru dengan membantu 
+menyusun rencana pelajaran, merekap nilai siswa, dan membuat laporan 
+perkembangan akademik. 
+e. Pengembangan Keterampilan Kreatif & Kritis 
+KA mendukung kreativitas siswa dalam menulis cerita, membuat desain 
+grafis, menciptakan musik, serta mengembangkan video edukatif. Selain itu, 
+KA juga membantu melatih keterampilan berpikir kritis dengan menganalisis 
+informasi dan mengidentifikasi deepfake. 
+B.5. Contoh Aktivitas Penerapan KA Generatif dalam Bidang  
+Pendidikan 
+1. Judul aktivitas: Memanfaatkan KA untuk Promosi Jajanan Sehat di Sekolah 
+Aktivitas ini bertujuan untuk mengajarkan siswa bagaimana menggunakan KA 
+generatif untuk membuat kampanye promosi jajanan sehat di sekolah. Melalui proyek 
+ini, siswa akan menggunakan KA untuk membuat konten teks, gambar, musik, dan 
+video guna meningkatkan kesadaran tentang pentingnya makanan sehat. 
+2. Tujuan pembelajaran :  
+● Peserta didik memahami manfaat jajanan sehat bagi tubuh. 
+● Siswa menggunakan KA untuk membuat kampanye promosi yang menarik. 
+● Siswa mengembangkan keterampilan kreatif dan berpikir kritis dalam mengolah 
+informasi. 
+3. Alat KA yang bisa digunakan : 
+● Generator teks: ChatGPT, Deepseek, Grok, Gemini, Copy.ai, dll (membuat 
+slogan dan deskripsi promosi). 
+● Generator gambar: DALL·E, Canva AI, Midjourney, Bing Image Creator, dll 
+(membuat poster promosi dan desain kemasan) 
+● Generator musik: AIVA, Soundraw, Suno, Murf, dll (membuat musik latar). 
+● Generator video: Pictory, Fliki, invideo, Runway ML, Synthesia, App.Steve, dll 
+(membuat video promosi). 
+ 
+No 
+Aktivitas 
+ 
+1 
+Pembuatan Konten Promosi dengan KA Generator Teks. 
+Contoh alat : Chat GPT 
+Langkah-langkah :  
+1. Siswa menentukan produk jajanan sehat (misalnya smoothie sehat, 
+salad buah, yogurt, atau jajanan tradisional sehat) 
+2. Gunakan KA untuk membuat teks promosi yang menarik. 
+
+
+===== HALAMAN 18 =====
+ 
+13 
+ 
+ 
+Contoh Prompt:  
+“Buatkan teks promosi untuk produk smoothie sehat bernama SuegerTenan. 
+Produk ini terbuat dari pisang, stroberi, dan madu tanpa gula tambahan. 
+Gunakan gaya bahasa yang menarik untuk anak sekolah dan sertakan slogan 
+yang catchy.” 
+ 
+Contoh hasil keluaran KA: 
+   SuegerTenan – Smoothie Sehat, Rasanya Nendang!    
+Hai, sobat sehat! Lagi cari minuman yang enak dan bikin kamu makin aktif di 
+sekolah? Yuk cobain SuegerTenan – smoothie sehat favorit anak keren! 
+Dibuat dari pisang manis, stroberi segar, dan madu alami, SuegerTenan 
+punya rasa mantap tanpa gula tambahan. Cocok banget buat nemenin waktu 
+belajar, main, atau istirahat di sekolah! 
+  Sehatnya dapet, segarnya dapet, enaknya pol! 
+  Bikin semangat belajar dan tambah fokus! 
+  Bikin badan tetap fit dan aktif seharian! 
+  Slogan: 
+"SuegerTenan – Segarnya Sehat, Enaknya Nggak Ketulungan!" 
+ 
+Sumber : https://chatgpt.com/share/67f3ffc9-0e10-8005-9e01-b91eeaf669e0 
+2 
+Pembuatan Desain Kemasan dan Poster dengan KA Generator Gambar. 
+Contoh alat : DALL-E 
+Langkah-langkah :  
+1. Siswa memilih apakah ingin membuat desain kemasan atau poster digital. 
+2. Masukkan prompt untuk menghasilkan gambar. 
+3. Sunting hasil desain menggunakan Canva atau Photoshop jika diperlukan. 
+ 
+ 
+Contoh 
+Prompt 
+untuk 
+desain 
+kemasan : 
+Contoh hasil keluaran KA: 
+“Buat desain kemasan smoothie 
+sehat 
+bernama 
+SuegerTenan. 
+Gelas plastik transparan dengan 
+label hijau cerah dan ilustrasi 
+pisang serta stroberi. Tambahkan 
+slogan ‘Sehat, Segar, Semangat!’ 
+dengan font modern dan menarik.” 
+ 
+Gambar 1.10. Hasil keluaran dari Dall-e 
+Sumber gambar : 
+https://chatgpt.com/share/67f3ffc9-0e10-
+8005-9e01-b91eeaf669e0 
+Contoh Prompt untuk poster digital 
+: 
+Contoh hasil keluaran KA: 
+
+
+===== HALAMAN 19 =====
+ 
+14 
+ 
+“Buat poster digital untuk promosi 
+smoothie 
+sehat 
+SuegerTenan. 
+Tampilkan gelas smoothie dengan 
+warna cerah, stroberi dan pisang 
+di 
+sekelilingnya, 
+serta 
+latar 
+belakang yang fresh dan energik. 
+Tambahkan 
+slogan 
+‘SuegerTenan: 
+Sehat, 
+Segar, 
+Semangat!’ dengan gaya huruf 
+tebal dan menarik.” 
+ 
+Gambar 1.11. Hasil keluaran dari Dall-e 
+Sumber gambar : 
+https://chatgpt.com/share/67f3ffc9-0e10-
+8005-9e01-b91eeaf669e0 
+3 
+Pembuatan Video Promosi dengan KA Generator Video. 
+Contoh alat : https://app.fliki.ai/  
+Langkah-langkah :  
+1. Gunakan teks promosi dari langkah 1 sebagai prompt video. 
+2. Masukkan prompt ke KA generator video untuk menghasilkan video 
+animasi atau footage otomatis. 
+3. Atur aspek rasio ke 16:9 
+4. Pilih template -> Product demo. 
+5. Unduh video 
+ 
+Contoh prompt untuk pembuatan video:  
+“Buat video iklan 30 detik untuk smoothie sehat SuegerTenan. Scene pertama: 
+seorang siswa terlihat lelah setelah belajar. Scene kedua: temannya datang 
+membawa SuegerTenan dan menyerahkannya. Scene ketiga: siswa meminum 
+dan tersenyum ceria. Scene keempat: tampilan close-up produk dengan slogan 
+‘Sehat, Segar, Semangat!’” 
+ 
+ 
+ 
+
+
+===== HALAMAN 20 =====
+ 
+15 
+ 
+ 
+ 
+Contoh hasil keluaran KA: 
+ 
+Gambar 1.12. Gambaran aktivitas dengan menggunakan generator video 
+Tangkapan layar dari app.fliki.ai (diakses 19 maret 2025) 
+4 
+Pembuatan Musik Latar dengan KA Generator Musik 
+Contoh alat : https://suno.com/ 
+Langkah-langkah :  
+1. Siswa memilih genre musik yang cocok untuk promosi jajanan sehat 
+(ceria, upbeat, fresh). 
+2. Gunakan KA teks ke musik untuk membuat lagu otomatis 
+3. Download musik latar dan tambahkan ke video promosi dari langkah 3 
+ 
+Contoh Prompt untuk musik latar (Teks ke Musik):  
+“Buat musik latar yang ceria dan penuh energi, cocok untuk iklan smoothie 
+sehat. Gunakan instrumen gitar akustik dan drum ringan dengan tempo cepat 
+dan suasana fresh.” 
+ 
+Contoh hasil keluaran KA: 
+ 
+ 
+
+
+===== HALAMAN 21 =====
+ 
+16 
+ 
+ 
+Gambar 1.13. Gambaran aktivitas membuat konten musik dengan Suno 
+Tangkapan layar dari Suno.com (19 Maret 2025) 
+ 
+Setelah musik selesai, gabungkan dengan video promosi menggunakan 
+software editing video seperti CapCut atau lainnya. 
+6 
+Presentasi dan Publikasi Video Promosi 
+Setelah video final siap, siswa dapat 
+1. Menampilkan video di kelas 
+2. Mengunggah ke media sosial 
+3. Menggunakan video dalam kampanye promosi jajanan sehat. 
+ 
+C. Etika dan Resiko KA Generatif 
+Kecerdasan Artifisial (KA) telah membawa banyak kemajuan dan peluang dalam 
+berbagai bidang. Namun, perkembangan ini juga menimbulkan sejumlah tantangan etika 
+dan risiko yang perlu dipertimbangkan secara serius. Berikut adalah beberapa aspek 
+etika dan risiko yang terkait dengan KA: 
+C.1. Etika dalam Penggunaan KA Generatif 
+KA Generatif memiliki potensi besar dalam berbagai bidang, mulai dari seni, jurnalisme, 
+bisnis, hingga pendidikan. Namun, penggunaannya harus diiringi dengan kesadaran 
+etika agar tidak menimbulkan dampak negatif bagi individu maupun masyarakat. Salah 
+satu aspek utama dalam etika KA generatif adalah memastikan bahwa teknologi ini 
+digunakan secara transparan dan adil, serta menghormati hak cipta dan kepemilikan 
+intelektual. 
+C.1.1. Transparansi dan Keadilan 
+Transparansi dalam penggunaan KA berarti bahwa pengguna harus mengetahui cara 
+kerja sistem, bagaimana data digunakan, dan bagaimana hasilnya dihasilkan. Ini penting 
+agar pengguna tidak tertipu oleh informasi yang dibuat oleh KA dan dapat memahami 
+batasan teknologi ini. 
+Keadilan dalam KA berarti bahwa teknologi ini harus digunakan secara setara, tanpa 
+memihak atau merugikan kelompok tertentu.  
+C.1.2. Hak Cipta dan Kepemilikan 
+KA generatif dapat menciptakan teks, gambar, musik, dan berbagai bentuk karya lainnya. 
+Hal ini menimbulkan tantangan baru dalam hal hak cipta dan kepemilikan intelektual. 
+
+
+===== HALAMAN 22 =====
+ 
+17 
+ 
+Seperti halnya hak cipta atas karya yang diciptakan oleh KA, karya yang dibuat oleh 
+manusia biasanya dilindungi oleh hak cipta, tetapi bagaimana dengan karya yang 
+dihasilkan oleh KA? Hingga saat ini, banyak negara belum memiliki aturan yang jelas 
+mengenai apakah hasil karya KA dapat dilindungi oleh hak cipta dan siapa pemilik sah 
+dari karya tersebut. Di sebagian besar yurisdiksi, hak cipta hanya diberikan kepada 
+manusia, bukan mesin. KA generatif ini dilatih menggunakan data yang diambil dari 
+berbagai sumber. Jika data ini mencakup karya berhak cipta, maka penggunaannya 
+dapat menimbulkan pelanggaran hak cipta. 
+C.2. Resiko Penggunaan KA Generatif 
+Meskipun KA Generatif memiliki banyak manfaat, penggunaannya juga membawa 
+berbagai risiko yang perlu diperhatikan. Berikut adalah beberapa risiko utama yang dapat 
+timbul dari penggunaan teknologi ini: 
+C.2.1.Potensi Penyalahgunaan dan Hoaks 
+KA Generatif memiliki kemampuan luar biasa dalam menciptakan teks, gambar, video, 
+dan audio yang tampak realistis dan meyakinkan. Namun, di balik manfaatnya, teknologi 
+ini juga menghadirkan risiko besar, salah satunya adalah potensi penyalahgunaan dan 
+penyebaran hoaks (informasi palsu atau menyesatkan). Dengan kemampuan KA 
+generatif untuk membuat konten yang sangat mirip dengan aslinya, berbagai pihak dapat 
+memanfaatkannya untuk tujuan yang tidak etis, seperti manipulasi informasi, penipuan, 
+dan propaganda.  
+C.2.2. Bias dalam Data dan Hasil 
+KA yang dibangun dengan dasar data yang tidak lengkap, tidak akurat, tidak relevan, 
+ataupun tidak adil dapat menjadi ancaman bagi manusia. Data yang digunakan oleh KA 
+dapat mengandung bias, yaitu kesalahan, ketimpangan, atau prasangka yang muncul 
+karena faktor-faktor seperti kesalahan pengukuran, kesalahan pengkodean, kesalahan 
+sampling, atau kesalahan interpretasi. Bias dalam data dapat memengaruhi hasil atau 
+perilaku KA itu sendiri, sehingga akan menghasilkan data yang tidak objektif, tidak akurat, 
+tidak efektif, ataupun tidak adil (Masrichah, 2023). Contoh : sebuah perusahaan teknologi 
+mengembangkan sistem pengenalan wajah, tetapi data latihannya sebagian besar terdiri 
+dari wajah orang berkulit putih. Akibatnya, sistem ini lebih akurat dalam mengenali orang 
+kulit putih dibandingkan orang dengan warna kulit lain, yang bisa menyebabkan 
+kesalahan identifikasi. 
+Bias dalam KA bisa diminimalkan dengan menggunakan data yang lebih representatif, 
+menerapkan algoritma yang adil, melakukan evaluasi berkala, serta memastikan 
+transparansi dan akuntabilitas dalam sistem. 
+C.2.3. Pelanggaran Privasi dan Keamanan Data 
+KA dapat mengumpulkan, menganalisis, dan memanfaatkan data dalam skala masif juga 
+dapat menjadi ancaman bagi privasi serta keamanan data manusia. Data yang dimiliki 
+oleh KA ini berasal dari berbagai sumber, seperti media sosial, gawai, kamera pengawas, 
+sensor, atau bahkan otak manusia itu sendiri. Data-data yang dikumpulkan tersebut 
+dapat digunakan oleh KA untuk tujuan yang baik, seperti memberikan layanan yang lebih 
+personal, relevan, dan efisien. Namun di sisi lain, data tersebut juga dapat 
+
+
+===== HALAMAN 23 =====
+ 
+18 
+ 
+disalahgunakan oleh KA terutama oleh oknum pihak lain yang tidak bertanggung jawab, 
+seperti peretas, penjahat, atau pemerintah (Misnawati, 2023). Beberapa contoh 
+pelanggaran privasi dan keamanan data yang dapat dilakukan oleh KA adalah sebagai 
+berikut: 
+1) Mengidentifikasi, melacak, atau memantau aktivitas, lokasi, atau perilaku tanpa 
+sepengetahuan atau persetujuan dari mereka para pengguna; 
+2) Mengubah, menghapus, atau mencuri data yang sifatnya sensitif, rahasia, atau 
+penting, seperti data pribadi, keuangan, kesehatan, atau nasional; 
+3) Membuat profil, diskriminasi, atau manipulasi berdasarkan data yang diketahui oleh 
+KA, seperti preferensi, kebiasaan, opini, atau emosi; dan 
+4) Menyebarkan informasi palsu (HOAX), menyesatkan, atau merusak yang dapat 
+memengaruhi opini, sikap, atau perilaku. 
+ 
+C.3. Teknologi Deepfake 
+Dalam contoh pembelajaran ini, akan membahas salah satu teknologi KA generatif yaitu 
+deepfake yang merupakan gabungan dari kata deep learning dan fake (palsu). Deepfake 
+adalah teknik memanipulasi gambar, suara, atau video dengan KA sehingga tercipta 
+konten baru yang terlihat asli dan meyakinkan. Deepfake bekerja menggunakan dua 
+algoritma, yaitu generator dan diskriminator. Generator membuat kumpulan data 
+pelatihan berdasarkan output yang diinginkan dan membuat konten digital palsu awal. 
+Sementara diskriminator menganalisis seberapa realistis atau palsu versi awal konten 
+tersebut. Proses ini diulang, sehingga generator dapat meningkatkan kemampuan dalam 
+membuat konten yang realistis, dan diskriminator menjadi lebih terampil dalam 
+menemukan kekurangan untuk diperbaiki oleh generator. 
+Teknologi ini dapat digunakan untuk berbagai tujuan, mulai dari hiburan dan seni hingga 
+penipuan dan disinformasi. Misalnya, deepfake dapat digunakan untuk membuat film 
+dimana aktor yang sudah meninggal "hidup kembali" atau untuk membuat parodi yang 
+lucu. Namun, deepfake juga memiliki potensi untuk digunakan dalam pembuatan berita 
+palsu yang tampak realistis, pemerasan, atau bahkan sabotase politik. Untuk mendeteksi 
+deepfake bisa menjadi tantangan karena teknologi ini terus berkembang dan menjadi 
+semakin canggih.  
+Teknik dalam deepfake merupakan sorotan utama dalam era modern komputasi visual, 
+di mana pengembangan yang cepat dalam kecerdasan buatan memungkinkan 
+manipulasi yang semakin kompleks terhadap konten multimedia, menciptakan tantangan 
+baru terkait keaslian informasi dan privasi individu. Ada beberapa teknik yang digunakan 
+dalam pembuatan deepfake, termasuk: 
+1. Face Swapping 
+Teknik ini melibatkan pertukaran wajah antara dua individu dalam sebuah 
+gambar atau video. Teknologi ini sering digunakan dalam aplikasi hiburan seperti 
+aplikasi pengubah wajah. Untuk mencoba teknik tersebut, Anda bisa 
+mengunjungi laman https://remaker.ai/face-swap-free/ dengan cara menyiapkan 
+dua buah gambar yang akan ditukarkan wajahnya yaitu satu gambar asli yang 
+akan diganti wajahnya, dan satunya adalah target face yang akan dimasukkan 
+ke gambar original. Selanjutnya, gambar diunggah ke aplikasi. 
+
+
+===== HALAMAN 24 =====
+ 
+19 
+ 
+ 
+Gambar 1.14. original image 
+(sumber gambar: Foto oleh Mustafa 
+Husnii: https://www.pexels.com/id-
+id/foto/pria-memegang-kamera-dslr-hitam-
+381843/) 
+Gambar 1.15. target face 
+(sumber gambar : dokumen pribadi) 
+ 
+ 
+ 
+Gambar 1.16. Contoh pemanfaatan teknik face swapping 
+Tangkapan layar dari Remaker AI Tools yang dapat digunakan untuk penukaran wajah (19 
+Maret 2025) 
+2. Lip Syncing 
+Teknik ini melibatkan sinkronisasi gerakan bibir, mulut, wajah, atau bahkan tubuh 
+subjek dalam foto atau video seseorang dengan suara orang lain atau dengan 
+trek audio tertentu. Ini sering digunakan untuk membuat seseorang tampak 
+mengatakan sesuatu yang sebenarnya tidak mereka katakan. Untuk mencoba 
+teknik tersebut, Anda bisa mengunjungi laman https://www.vozo.ai/ dengan cara 
+menyiapkan sebuah gambar atau video. Selanjutnya membuat teks kalimat yang 
+akan digunakan sebagai bahan subjek berbicara. 
+3. Puppet Master 
+Teknik ini melibatkan penggunaan wajah seseorang untuk mengontrol ekspresi 
+dan gerakan wajah orang lain dalam video. Dalam teknik ini, gerakan wajah 
+seseorang diambil dan diterapkan pada wajah orang lain. 
+4. Voice Cloning 
+Selain manipulasi video, teknologi deepfake juga dapat digunakan untuk meniru 
+suara seseorang. Dengan menggunakan data suara dari individu, model deep 
+learning dapat menghasilkan rekaman audio yang terdengar sangat mirip 
+dengan suara asli individu tersebut. 
+ 
+
+
+===== HALAMAN 25 =====
+ 
+20 
+ 
+Mendeteksi deepfake bisa menjadi tantangan karena teknologi ini terus 
+berkembang dan menjadi semakin canggih. Namun, ada beberapa tips yang 
+disarankan oleh Massachusetts Institute of Technology (MIT) untuk mendeteksi 
+deepfake secara manual :  
+a) Perhatikan Wajah : Transformasi wajah merupakan ciri khas deepfake kelas 
+atas. Amati perubahan yang mencolok pada wajah orang dalam konten 
+tersebut. 
+b) Analisis Bagian Pipi dan Dahi : Apakah kulit terlihat terlalu halus atau terlalu 
+keriput? Perhatikan apakah usia kulit sesuai dengan usia rambut dan mata. 
+Ketidaksesuaian ini dapat menjadi indikator deepfake. 
+c) Observasi Kacamata : Apakah ada silau yang tidak konsisten atau terlalu 
+banyak silau? Amati apakah sudut silau berubah saat orang tersebut 
+bergerak. Deepfake seringkali gagal memproduksi efek pencahayaan secara 
+alami. 
+d) Analisis Rambut di Wajah : Perhatikan apakah rambut wajah terlihat nyata. 
+Deepfake mungkin menambah atau menghapus kumis, cambang, atau 
+janggut, tetapi seringkali gagal membuat transformasi rambut wajah terlihat 
+alami. 
+e) Amati Tahi Lalat di Wajah : Keaslian tahi lalat pada wajah juga perlu 
+diperhatikan sebagai tanda deepfake. 
+f) Perhatikan Kedipan : Apakah frekuensi kedipan terlihat normal? Kedipan 
+yang tidak wajar dapat menjadi petunjuk deepfake. 
+g) Analisis Ukuran dan Warna Bibir : Apakah ukuran dan warna bibir sesuai 
+dengan bagian lain wajah? Ketidaksesuaian ini dapat menjadi tanda 
+deepfake. 
+C.3.1. Contoh Aktivitas Menganalisis konten Deepfake 
+Deepfake berkualitas tinggi tidak mudah dikenali, tetapi dengan latihan, orang dapat 
+membangun intuisi untuk mengidentifikasi mana yang palsu dan mana yang asli. Anda 
+dapat berlatih mencoba mendeteksi deepfake yang disediakan oleh MIT, berikut adalah 
+langkah-langkahnya :  
+1. Buka tautan :   
+https://detectfakes.kellogg.northwestern.edu/ dan selanjutnya akan muncul 
+halaman seperti berikut :   
+
+
+===== HALAMAN 26 =====
+ 
+21 
+ 
+ 
+Gambar 1.17. Gambaran aktivitas analisis gambar buatan KA atau nyata 
+Tangkapan layar dari northwestern kellog yang dapat digunakan untuk latihan menganalisis 
+gambar buatan KA atau nyata (19 Maret 2025) 
+ 
+Pengguna diperlihatkan serangkaian gambar dan gambar-gambar ini dapat 
+berupa foto asli atau gambar buatan KA. Tujuannya yaitu untuk memahami 
+seberapa baik orang dapat membedakan antara gambar asli dan gambar buatan 
+KA.  
+2. Pengamatan visual awal :  
+Setelah diperbesar gambarnya, Anda bisa melihat bahwa ada beberapa 
+kejanggalan seperti yang terlihat pada gambar dibawah.  
+ 
+Gambar 1.18. Contoh konten yang terindikasi deepfake 
+(sumber gambar : https://detectfakes.kellogg.northwestern.edu) 
+ 
+Tabel analisis gambar deepfake 
+Komponen 
+Keterangan 
+No 1 s.d 4  
+jari tangan terlihat tidak realistis, baik dari segi bentuk, jumlah, 
+dan cara memegang.  
+No. 5 s.d 8 
+Pasangan sepatu jika dilihat secara seksama, bentuknya tidak 
+sama dan cenderung kurang beraturan, dan untuk no. 6 sepatu 
+anak terlihat menyatu dengan sepatu orang dibelakangnya. 
+No. 9 
+Kaki anak terlihat hanya satu dan kaki satunya tampak menyatu 
+dengan kaki orang dewasa.. 
+
+
+===== HALAMAN 27 =====
+ 
+22 
+ 
+No. 10 dan 
+11 
+Posisi kepala anak terlihat kurang realistis, no.10 terlihat tidak 
+menyatu dengan badan, sedangkan no.11 terlihat menyatu 
+dengan tubuh orang dewasa. 
+No. 12  
+Jika diperhatikan, bentuk alis dan mata antara kiri dan kanan tidak 
+simetris. 
+Kesimpulan : gambar diatas merupakan gambar palsu (fake) 
+ 
+3. Untuk memastikan apakah gambar itu hasil rekayasa atau bukan, anda juga bisa 
+menggunakan alat pendeteksi konten deepfake salah satunya adalah Hive 
+Moderation (yang bisa diakses melalui https://hivemoderation.com/ai-generated-
+content-detection.  
+Cara penggunaannya mudah, yakni dengan mengunggah gambar, lalu Hive 
+Moderation akan menampilkan hasil probabilitas apakah gambar itu asli atau 
+dibuat dengan KA. 
+ 
+ 
+ 
+Gambar 1.19. Mendeteksi gambar deepfake melalui HIVE Moderation 
+Tangkapan layar HIVE Moderation yang bisa dijadikan alternatif untuk mendeteksi gambar 
+buatan KA secara daring (19 Maret 2025) 
+ 
+
+
+===== HALAMAN 28 =====
+ 
+23 
+ 
+ 
+4. Situs lainnya yang dapat digunakan untuk mendeteksi gambar rekayasa, yakni 
+Is It AI yang bisa diakses melalui https://isitai.com/ai-image-detector/. Alat ini juga 
+dapat membantu mengetahui kemungkinan suatu gambar dibuat oleh manusia 
+atau algoritma KA. Akan muncul persentase “KA” dan “Manusia” ketika gambar 
+dimasukkan pada kolom pendeteksi gambar. Jika persentase KA lebih besar, 
+kemungkinan gambar tersebut bukan buatan manusia. 
+ 
+ 
+ 
+ 
+Gambar 1.20. Mendeteksi gambar deepfake melalui Is It AI 
+Tangkapan layar Is It AI yang bisa dijadikan alternatif untuk mendeteksi gambar buatan KA 
+secara daring (19 Maret 2025) 
+ 
+Namun, penting dicatat bahwa hasil pendeteksian gambar tidak selamanya akurat, 
+mengingat KA juga semakin pintar. Kendati demikian, keberadaan alat-alat pendeteksi 
+deepfake di atas dapat membantu memberi gambaran dalam bentuk persentase dan 
+probabilitas gambar yang dibuat dengan komputer. 
+Dengan meningkatkan kewaspadaan dan memanfaatkan teknologi yang tersedia, kita 
+dapat terhindar dari penipuan yang menggunakan gambar hasil rekayasa KA. 
+
+
+===== HALAMAN 29 =====
+ 
+24 
+ 
+D. Daftar Pustaka 
+ 
+Center for Media Engagement. (2022, 14 September). Election Misinformation 
+Symposium: Fighting Misinfo Through Fact-checking and Deepfake Detection. 
+[Video]. Youtube. https://www.youtube.com/watch?v=QlNGD_QLcZE  
+Codingstudio. (2024, 11 Mei). Apa itu Deepfake? Pengertian, Cara Kerja dan Cara 
+Menghindarinya. Diakses dari https://codingstudio.id/blog/deepfake-adalah/  
+Darwiche, A. (2020). Human-Level Intelligence or Animal-Like Abilities? Communications 
+of the ACM. 
+Handayani, D.S., Kaunang, R., Sondang, S., & Irwansyah (2024). Manfaat dan Potensi 
+Masalah Penggunaan Kecerdasan Buatan (AI) dalam Komunikasi Publik. Jurnal 
+Ekonomi, 
+Koperasi 
+& 
+Kewirausahaan 
+14, 
+Vol. 
+14, 
+no. 
+12, 
+(2024). 
+https://journal.ikopin.ac.id/ 
+Hermawan, Galih. (2024). Memahami Peran Dataset dalam Penelitian Kecerdasan 
+Buatan: Kualitas, Aksesibilitas, dan Tantangan. 10.13140/RG.2.2.34468.49288.  
+Kusumawardani, Sri Suning, Dewi Wulandari, et al. Panduan penggunaan generative 
+artificial intelligence (genAI) pada pembelajaran di perguruan tinggi. Jakarta: 
+Direktorat Jenderal Pendidikan Tinggi, Riset, dan Teknologi, 2024. Diakses pada 
+19 Maret 2025,  
+dari : https://kemdiktisaintek.go.id/epustaka/122191/ 
+Luger, G. F. (2005). Artificial Intelligence: Structures and Strategies for Complex Problem 
+Solving (6th ed.). Addison-Wesley 
+MIT. (n.d.). Deteksi DeepFakes: Cara menangkal misinformasi yang dibuat oleh AI. 
+https://www.media.mit.edu/projects/detect-fakes/overview/ 
+Nilsson, N. J. (1998). Artificial Intelligence: A New Synthesis. Morgan Kaufmann 
+Russell, S. & Norvig, P. (2020). Artificial Intelligence: A Modern Approach (4th Edition). 
+Pearson. 
+Sari, Rita Puspita. (2024, 3 Februari). Mengenal Apa itu AI Generatif dan Cara Kerjanya. 
+Diakses dari https://aihub.id/pengetahuan-dasar/mengenal-ai-generatif  
+Syafitrah, adi. (2024, 24 Juli). Mengungkap Gambar Hasil Rekayasa AI: Tips dan Tools. 
+Diakses dari https://turnbackhoax.id/2024/07/02/edukasi-mengungkap-gambar-
+hasil-rekayasa-ai-tips-dan-tools/  
+Trilatifah, winda. (2024, 11 Desember). Mengenal AI Generatif: Definisi, Cara Kerja, dan 
+Implementasi di Dunia Nyata. Diakses dari https://analysis.netray.id/definisi-cara-
+kerja-implementasi-ai-generatif/  
+  
+ 
+ 
+ 
+ 
