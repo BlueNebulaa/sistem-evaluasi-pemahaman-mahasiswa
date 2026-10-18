@@ -33,3 +33,18 @@ async def evaluate(file: UploadFile):
     finally:
         if os.path.exists(video_path):
             os.unlink(video_path)
+
+@app.post("/generate_report")
+async def generate_report(file: UploadFile):
+    """Upload satu video interview, dapat satu JSON berisi laporan evaluasi."""
+    suffix = os.path.splitext(file.filename or "")[1] or ".mp4"
+
+    fd, video_path = tempfile.mkstemp(suffix=suffix)
+    with os.fdopen(fd, "wb") as tmp:
+        shutil.copyfileobj(file.file, tmp)
+
+    try:
+        return pipeline.generate_report(video_path)
+    finally:
+        if os.path.exists(video_path):
+            os.unlink(video_path)
