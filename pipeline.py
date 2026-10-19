@@ -7,7 +7,7 @@ import os
 
 import config
 from services import (
-    eye_tracking,
+    eye_movement,
     media,
     nonverbal,
     object_detection,
@@ -45,15 +45,15 @@ def evaluate(video_path: str) -> dict:
         sc = safe("scoring", penilaian.score_all, transcript)
 
         eye = safe(
-            "eye_tracking",
-            eye_tracking.analyze_eye,
+            "eye_movement",
+            eye_movement.analyze_video,
             video_path, config.EYE_FRAME_SKIP, config.EYE_MAX_FRAMES,
         )
-        dia = safe("diarization", object_detection.diarize_interview, wav, segments)
+        obj = safe("object_detection", object_detection.analyze_video, wav, segments)
 
         # diarization menempelkan label speaker langsung ke objek segments,
         # jadi hasilnya sudah ikut terbawa di bagian "transcription".
-        dia.pop("segments", None)
+        obj.pop("segments", None)
 
         return {
             "duration_sec": round(duration, 2),
@@ -61,8 +61,8 @@ def evaluate(video_path: str) -> dict:
             "nonverbal": nv,
             "scoring": sc,
             "cheating_detection": {
-                "eye_tracking": eye,
-                "diarization": dia,
+                "eye_movement": eye,
+                "object_detection": obj,
             },
         }
     finally:
